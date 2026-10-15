@@ -195,8 +195,8 @@ Lift는 독립적 방문을 가정한 기대 비율에 비해 같은 사람이 �
 
 ```bash
 python -m pip install numpy matplotlib
-python analysis/koreamate_step9_10_audit.py --input /PRIVATE/2025_eda_raw.csv --out outputs/
-python analysis/create_eda_charts.py
+python analysis/tourist-survey-2025/scripts/koreamate_step9_10_audit.py --input /PRIVATE/2025_eda_raw.csv --out analysis/tourist-survey-2025/outputs
+python analysis/tourist-survey-2025/scripts/create_eda_charts.py
 ```
 
 코드북 원본의 지역 Q9_2a01~17, 활동 Q8, 조사 월 D_MON, 월별 가중치 weight를 대조하여 범주 매핑을 구성했다. 원자료 ZIP·XLSX·응답자별 CSV는 GitHub·공유패키지에서 제외한다. 지역·국가의 방문 n이 30 미만인 표는 공개용 CSV에서 비율을 가린다.
