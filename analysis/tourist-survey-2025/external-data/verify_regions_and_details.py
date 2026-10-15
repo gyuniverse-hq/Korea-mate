@@ -249,6 +249,7 @@ def main()->int:
         "as_of":args.as_of.isoformat(),"start_filter":args.start_date,
         "pagination":{"complete":pages["pagination_complete"],"rows":len(rows),"pages":pages["pages_requested"]},
         "ldong_lookup_status":code_status,
+        "ldong_response_schema": {"row_count":len(ldong), "field_names": sorted({k for item in ldong for k in item}), "region_map_count":len(mapping)},
         "region":region_audit(rows,mapping),
         "detail_sample":details,
         "seoul_sample":seoul_audit(samples,seoul_status,rows),
@@ -264,7 +265,7 @@ def main()->int:
     args.out.parent.mkdir(parents=True,exist_ok=True)
     args.out.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     mini={"status":"success", "n":len(rows),"region":output["region"],
-          "ldong_lookup_status":code_status, "detail":details,"seoul":output["seoul_sample"]}
+          "ldong_lookup_status":code_status, "ldong_schema": output["ldong_response_schema"], "detail":details,"seoul":output["seoul_sample"]}
     print("KOREAMATE_EDA5_FOLLOWUP="+json.dumps(mini,ensure_ascii=False,sort_keys=True))
     return 0
 
