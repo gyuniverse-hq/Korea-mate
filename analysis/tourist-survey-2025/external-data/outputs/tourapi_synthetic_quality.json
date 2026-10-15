@@ -1,0 +1,23 @@
+{
+  "fixture_type": "SYNTHETIC_TEST_ONLY",
+  "metrics": {
+    "provider": "tourapi_festival",
+    "scope": "schema/quality validation, NOT actual operating or booking availability",
+    "row_count": 2,
+    "distinct_source_ids": 2,
+    "duplicate_source_ids": 0,
+    "date_status_counts": {
+      "future": 2
+    },
+    "coordinate_valid_count": 1,
+    "detail_url_valid_count": 0,
+    "location_candidate_count": 1,
+    "ending_soon_candidate_count": 0,
+    "quality_flags": {
+      "detail_url_unavailable": 2,
+      "missing_or_non_numeric": 1
+    },
+    "operating_now_confirmed_count": null,
+    "bookable_confirmed_count": null
+  }
+}
