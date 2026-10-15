@@ -1,0 +1,478 @@
+{
+  "source": "2025년 외래관광객조사 원자료, 응답자별 CSV를 집계 후 폐기 가능",
+  "n_total": 16110,
+  "n_eligible": 12339,
+  "elig_q3_answered": 12339,
+  "analysis_date": "2026-10-15",
+  "group": {
+    "여가·친지 방문": {
+      "n": 12339,
+      "n_eff": 8501.3,
+      "no_info_gap_pct": 47.95,
+      "sns_platform_pct": 46.84
+    },
+    "첫 방문 (여가/친지)": {
+      "n": 6208,
+      "n_eff": 4157.7,
+      "no_info_gap_pct": 43.17,
+      "sns_platform_pct": 48.46
+    },
+    "재방문 (여가/친지)": {
+      "n": 6131,
+      "n_eff": 4353.6,
+      "no_info_gap_pct": 52.21,
+      "sns_platform_pct": 45.4
+    }
+  },
+  "activity_conversion": [
+    {
+      "code": 1,
+      "activity": "식도락",
+      "n_want": 6934,
+      "want_weight_pct": 61.73,
+      "do_given_want_pct": 93.75,
+      "missing_action_given_want_pct": 6.25,
+      "n_gap": 571,
+      "gap_neff": 369.5,
+      "n_done": 6363,
+      "done_neff": 4644.9,
+      "considered_not_done": {
+        "n": 571,
+        "no_info_gap_pct": 32.1,
+        "lack_hallyu_pct": 10.89,
+        "lack_transport_pct": 21.67,
+        "lack_visiting_pct": 21.68
+      },
+      "considered_done": {
+        "n": 6363,
+        "no_info_gap_pct": 54.26,
+        "lack_hallyu_pct": 5.84,
+        "lack_transport_pct": 15.51,
+        "lack_visiting_pct": 9.73
+      }
+    },
+    {
+      "code": 2,
+      "activity": "쇼핑",
+      "n_want": 6667,
+      "want_weight_pct": 57.28,
+      "do_given_want_pct": 96.11,
+      "missing_action_given_want_pct": 3.89,
+      "n_gap": 305,
+      "gap_neff": 196.6,
+      "n_done": 6362,
+      "done_neff": 4474.4,
+      "considered_not_done": {
+        "n": 305,
+        "no_info_gap_pct": 34.12,
+        "lack_hallyu_pct": 8.41,
+        "lack_transport_pct": 24.67,
+        "lack_visiting_pct": 13.79
+      },
+      "considered_done": {
+        "n": 6362,
+        "no_info_gap_pct": 49.51,
+        "lack_hallyu_pct": 6.74,
+        "lack_transport_pct": 17.15,
+        "lack_visiting_pct": 9.35
+      }
+    },
+    {
+      "code": 3,
+      "activity": "자연경관",
+      "n_want": 4466,
+      "want_weight_pct": 35.63,
+      "do_given_want_pct": 85.89,
+      "missing_action_given_want_pct": 14.11,
+      "n_gap": 656,
+      "gap_neff": 429.4,
+      "n_done": 3810,
+      "done_neff": 2648.3,
+      "considered_not_done": {
+        "n": 656,
+        "no_info_gap_pct": 40.19,
+        "lack_hallyu_pct": 10.62,
+        "lack_transport_pct": 20.85,
+        "lack_visiting_pct": 12.92
+      },
+      "considered_done": {
+        "n": 3810,
+        "no_info_gap_pct": 51.9,
+        "lack_hallyu_pct": 6.55,
+        "lack_transport_pct": 14.12,
+        "lack_visiting_pct": 10.72
+      }
+    },
+    {
+      "code": 5,
+      "activity": "고궁·역사",
+      "n_want": 3435,
+      "want_weight_pct": 21.62,
+      "do_given_want_pct": 85.06,
+      "missing_action_given_want_pct": 14.94,
+      "n_gap": 460,
+      "gap_neff": 313.5,
+      "n_done": 2975,
+      "done_neff": 2070.7,
+      "considered_not_done": {
+        "n": 460,
+        "no_info_gap_pct": 44.47,
+        "lack_hallyu_pct": 9.2,
+        "lack_transport_pct": 19.32,
+        "lack_visiting_pct": 11.59
+      },
+      "considered_done": {
+        "n": 2975,
+        "no_info_gap_pct": 42.29,
+        "lack_hallyu_pct": 8.11,
+        "lack_transport_pct": 16.34,
+        "lack_visiting_pct": 11.25
+      }
+    },
+    {
+      "code": 7,
+      "activity": "박물관·전시",
+      "n_want": 1243,
+      "want_weight_pct": 8.73,
+      "do_given_want_pct": 70.11,
+      "missing_action_given_want_pct": 29.89,
+      "n_gap": 347,
+      "gap_neff": 249.2,
+      "n_done": 896,
+      "done_neff": 606.9,
+      "considered_not_done": {
+        "n": 347,
+        "no_info_gap_pct": 34.54,
+        "lack_hallyu_pct": 8.42,
+        "lack_transport_pct": 26.42,
+        "lack_visiting_pct": 14.84
+      },
+      "considered_done": {
+        "n": 896,
+        "no_info_gap_pct": 38.32,
+        "lack_hallyu_pct": 8.9,
+        "lack_transport_pct": 17.03,
+        "lack_visiting_pct": 11.81
+      }
+    },
+    {
+      "code": 8,
+      "activity": "K-pop·촬영지",
+      "n_want": 1831,
+      "want_weight_pct": 17.09,
+      "do_given_want_pct": 71.88,
+      "missing_action_given_want_pct": 28.12,
+      "n_gap": 562,
+      "gap_neff": 398.2,
+      "n_done": 1269,
+      "done_neff": 889.3,
+      "considered_not_done": {
+        "n": 562,
+        "no_info_gap_pct": 35.48,
+        "lack_hallyu_pct": 11.9,
+        "lack_transport_pct": 21.77,
+        "lack_visiting_pct": 17.42
+      },
+      "considered_done": {
+        "n": 1269,
+        "no_info_gap_pct": 45.14,
+        "lack_hallyu_pct": 8.97,
+        "lack_transport_pct": 19.5,
+        "lack_visiting_pct": 11.91
+      }
+    },
+    {
+      "code": 10,
+      "activity": "지역 축제",
+      "n_want": 305,
+      "want_weight_pct": 1.81,
+      "do_given_want_pct": 46.31,
+      "missing_action_given_want_pct": 53.69,
+      "n_gap": 178,
+      "gap_neff": 117.6,
+      "n_done": 127,
+      "done_neff": 84.4,
+      "considered_not_done": {
+        "n": 178,
+        "no_info_gap_pct": 36.29,
+        "lack_hallyu_pct": 4.75,
+        "lack_transport_pct": 21.19,
+        "lack_visiting_pct": 15.22
+      },
+      "considered_done": {
+        "n": 127,
+        "no_info_gap_pct": 40.08,
+        "lack_hallyu_pct": 9.4,
+        "lack_transport_pct": 14.99,
+        "lack_visiting_pct": 13.19
+      }
+    },
+    {
+      "code": 13,
+      "activity": "뷰티·미용서비스",
+      "n_want": 1453,
+      "want_weight_pct": 12.5,
+      "do_given_want_pct": 64.24,
+      "missing_action_given_want_pct": 35.76,
+      "n_gap": 485,
+      "gap_neff": 343.5,
+      "n_done": 968,
+      "done_neff": 668.8,
+      "considered_not_done": {
+        "n": 485,
+        "no_info_gap_pct": 28.47,
+        "lack_hallyu_pct": 11.21,
+        "lack_transport_pct": 25.55,
+        "lack_visiting_pct": 16.45
+      },
+      "considered_done": {
+        "n": 968,
+        "no_info_gap_pct": 43.87,
+        "lack_hallyu_pct": 5.41,
+        "lack_transport_pct": 19.71,
+        "lack_visiting_pct": 10.57
+      }
+    }
+  ],
+  "monthly": [
+    {
+      "month": 1,
+      "n": 949,
+      "weighted_sample_pct": 5.58,
+      "식도락": 87.43,
+      "쇼핑": 85.34,
+      "자연경관": 51.9,
+      "고궁·역사": 33.57,
+      "박물관·전시": 20.54,
+      "K-pop·촬영지": 16.51,
+      "지역 축제": 3.63,
+      "뷰티·미용서비스": 17.84
+    },
+    {
+      "month": 2,
+      "n": 1002,
+      "weighted_sample_pct": 5.96,
+      "식도락": 87.06,
+      "쇼핑": 87.39,
+      "자연경관": 55.81,
+      "고궁·역사": 33.0,
+      "박물관·전시": 16.99,
+      "K-pop·촬영지": 14.12,
+      "지역 축제": 1.36,
+      "뷰티·미용서비스": 14.87
+    },
+    {
+      "month": 3,
+      "n": 1028,
+      "weighted_sample_pct": 8.6,
+      "식도락": 86.64,
+      "쇼핑": 86.38,
+      "자연경관": 54.57,
+      "고궁·역사": 35.43,
+      "박물관·전시": 20.18,
+      "K-pop·촬영지": 15.79,
+      "지역 축제": 1.83,
+      "뷰티·미용서비스": 15.18
+    },
+    {
+      "month": 4,
+      "n": 1079,
+      "weighted_sample_pct": 8.91,
+      "식도락": 84.61,
+      "쇼핑": 83.97,
+      "자연경관": 61.22,
+      "고궁·역사": 43.15,
+      "박물관·전시": 26.7,
+      "K-pop·촬영지": 14.99,
+      "지역 축제": 6.29,
+      "뷰티·미용서비스": 14.26
+    },
+    {
+      "month": 5,
+      "n": 1031,
+      "weighted_sample_pct": 8.37,
+      "식도락": 85.27,
+      "쇼핑": 86.13,
+      "자연경관": 58.1,
+      "고궁·역사": 41.84,
+      "박물관·전시": 22.88,
+      "K-pop·촬영지": 12.64,
+      "지역 축제": 5.01,
+      "뷰티·미용서비스": 13.04
+    },
+    {
+      "month": 6,
+      "n": 1031,
+      "weighted_sample_pct": 8.36,
+      "식도락": 83.79,
+      "쇼핑": 88.38,
+      "자연경관": 55.04,
+      "고궁·역사": 39.91,
+      "박물관·전시": 24.2,
+      "K-pop·촬영지": 16.55,
+      "지역 축제": 3.83,
+      "뷰티·미용서비스": 15.54
+    },
+    {
+      "month": 7,
+      "n": 1039,
+      "weighted_sample_pct": 8.98,
+      "식도락": 86.43,
+      "쇼핑": 87.47,
+      "자연경관": 55.07,
+      "고궁·역사": 35.04,
+      "박물관·전시": 22.74,
+      "K-pop·촬영지": 24.28,
+      "지역 축제": 2.86,
+      "뷰티·미용서비스": 11.81
+    },
+    {
+      "month": 8,
+      "n": 1035,
+      "weighted_sample_pct": 9.49,
+      "식도락": 88.54,
+      "쇼핑": 88.85,
+      "자연경관": 58.68,
+      "고궁·역사": 41.91,
+      "박물관·전시": 26.28,
+      "K-pop·촬영지": 16.87,
+      "지역 축제": 2.25,
+      "뷰티·미용서비스": 11.67
+    },
+    {
+      "month": 9,
+      "n": 1029,
+      "weighted_sample_pct": 9.2,
+      "식도락": 85.22,
+      "쇼핑": 87.32,
+      "자연경관": 55.99,
+      "고궁·역사": 39.82,
+      "박물관·전시": 25.31,
+      "K-pop·촬영지": 14.27,
+      "지역 축제": 3.03,
+      "뷰티·미용서비스": 14.81
+    },
+    {
+      "month": 10,
+      "n": 1065,
+      "weighted_sample_pct": 9.49,
+      "식도락": 86.24,
+      "쇼핑": 86.45,
+      "자연경관": 58.34,
+      "고궁·역사": 39.7,
+      "박물관·전시": 26.54,
+      "K-pop·촬영지": 19.89,
+      "지역 축제": 6.01,
+      "뷰티·미용서비스": 13.39
+    },
+    {
+      "month": 11,
+      "n": 1052,
+      "weighted_sample_pct": 8.61,
+      "식도락": 86.53,
+      "쇼핑": 85.38,
+      "자연경관": 64.67,
+      "고궁·역사": 39.75,
+      "박물관·전시": 22.67,
+      "K-pop·촬영지": 8.47,
+      "지역 축제": 5.63,
+      "뷰티·미용서비스": 13.88
+    },
+    {
+      "month": 12,
+      "n": 999,
+      "weighted_sample_pct": 8.45,
+      "식도락": 87.46,
+      "쇼핑": 83.94,
+      "자연경관": 65.32,
+      "고궁·역사": 35.76,
+      "박물관·전시": 20.5,
+      "K-pop·촬영지": 14.96,
+      "지역 축제": 5.99,
+      "뷰티·미용서비스": 14.24
+    }
+  ],
+  "conditional_info_gap": [],
+  "country_visit": [
+    {
+      "country": "중국",
+      "visit": "첫 방문",
+      "n": 931,
+      "n_eff": 871.0,
+      "자연경관": 64.97,
+      "박물관·전시": 15.42,
+      "K-pop·촬영지": 16.78,
+      "뷰티·미용서비스": 7.63
+    },
+    {
+      "country": "중국",
+      "visit": "재방문",
+      "n": 918,
+      "n_eff": 869.8,
+      "자연경관": 43.27,
+      "박물관·전시": 8.96,
+      "K-pop·촬영지": 24.95,
+      "뷰티·미용서비스": 12.16
+    },
+    {
+      "country": "일본",
+      "visit": "첫 방문",
+      "n": 444,
+      "n_eff": 395.4,
+      "자연경관": 57.14,
+      "박물관·전시": 13.18,
+      "K-pop·촬영지": 11.06,
+      "뷰티·미용서비스": 19.37
+    },
+    {
+      "country": "일본",
+      "visit": "재방문",
+      "n": 1266,
+      "n_eff": 1162.3,
+      "자연경관": 42.47,
+      "박물관·전시": 6.46,
+      "K-pop·촬영지": 15.35,
+      "뷰티·미용서비스": 21.85
+    },
+    {
+      "country": "대만",
+      "visit": "첫 방문",
+      "n": 592,
+      "n_eff": 566.8,
+      "자연경관": 70.32,
+      "박물관·전시": 40.49,
+      "K-pop·촬영지": 10.95,
+      "뷰티·미용서비스": 5.06
+    },
+    {
+      "country": "대만",
+      "visit": "재방문",
+      "n": 659,
+      "n_eff": 631.4,
+      "자연경관": 56.67,
+      "박물관·전시": 19.26,
+      "K-pop·촬영지": 18.39,
+      "뷰티·미용서비스": 8.44
+    },
+    {
+      "country": "미국",
+      "visit": "첫 방문",
+      "n": 536,
+      "n_eff": 477.4,
+      "자연경관": 69.8,
+      "박물관·전시": 51.29,
+      "K-pop·촬영지": 13.84,
+      "뷰티·미용서비스": 16.21
+    },
+    {
+      "country": "미국",
+      "visit": "재방문",
+      "n": 242,
+      "n_eff": 213.9,
+      "자연경관": 67.37,
+      "박물관·전시": 30.38,
+      "K-pop·촬영지": 10.02,
+      "뷰티·미용서비스": 11.91
+    }
+  ]
+}
