@@ -1,0 +1,49 @@
+name: EDA TourAPI region detail and Seoul sample followup
+
+# Research branch only. This performs bounded read-only requests and stores
+# only aggregate counts. The TourAPI key never appears in logs or artifacts.
+on:
+  push:
+    branches:
+      - research/eda-2025-survey
+    paths:
+      - .github/workflows/eda-tourapi-region-detail-seoul.yml
+      - analysis/tourist-survey-2025/external-data/verify_regions_and_details.py
+      - analysis/tourist-survey-2025/external-data/test_verify_regions_and_details.py
+
+permissions:
+  contents: read
+
+concurrency:
+  group: eda-tourapi-region-detail-seoul
+  cancel-in-progress: false
+
+jobs:
+  followup-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    defaults:
+      run:
+        working-directory: analysis/tourist-survey-2025/external-data
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Offline regression tests (no credentials)
+        run: python3 -m unittest -v test_collect_all_festivals.py test_verify_regions_and_details.py
+      - name: Audit legal-dong codes, festival details and public Seoul sample
+        env:
+          TOURAPI_SERVICE_KEY: ${{ secrets.TOURAPI_SERVICE_KEY }}
+        run: |
+          python3 verify_regions_and_details.py \
+            --as-of 2026-10-16 \
+            --start-date 20260717 \
+            --details 12 \
+            --out reports/tourapi_region_detail_seoul_qa.json
+      - name: Upload summary-only report
+        uses: actions/upload-artifact@v4
+        with:
+          name: koreamate-eda5-region-detail-seoul-aggregate
+          path: analysis/tourist-survey-2025/external-data/reports/tourapi_region_detail_seoul_qa.json
+          if-no-files-found: error
+          retention-days: 14
