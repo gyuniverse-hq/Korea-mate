@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-16",
+  "official_docs_verified": true,
+  "sources": [
+    {
+      "provider": "seoul_cultural",
+      "actual_live_api_rows_tested": false,
+      "status": "network_unavailable",
+      "exception_type": "URLError"
+    },
+    {
+      "provider": "tourapi_festival",
+      "actual_live_api_rows_tested": false,
+      "status": "skipped_no_key"
+    }
+  ]
+}
