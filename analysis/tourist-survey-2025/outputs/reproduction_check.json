@@ -1,0 +1,22 @@
+{
+  "v2_full_json_exact_equal": true,
+  "v3_full_json_exact_equal": true,
+  "v3_logit_effect_estimates_equal": true,
+  "v3_logit_iteration_differences": [
+    {
+      "group": "first_repeat",
+      "index": 1,
+      "old_iters": 105,
+      "new_iters": 110
+    },
+    {
+      "group": "first_repeat",
+      "index": 8,
+      "old_iters": 107,
+      "new_iters": 105
+    }
+  ],
+  "v2_niche_ndcg3": 0.726682,
+  "reproduction_scope": "2025 원자료(로컬 전용)와 동일 버전 Python 스크립트를 사용한 재실행",
+  "limitations": "환경 간 차이/코드 변경 가능성 및 원설문 복합표본 변동성은 별도로 검증 필요"
+}
