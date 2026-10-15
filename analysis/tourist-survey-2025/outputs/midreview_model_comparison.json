@@ -1,0 +1,30 @@
+{
+  "notes": "Post-hoc, respondent paired bootstrap with fixed model predictions. Not complex-survey variance, no formal superiority claims.",
+  "n_valid": 1914,
+  "results": [
+    {
+      "pair": "lightgbm minus logistic",
+      "delta_pp": 0.335,
+      "approx_ci95_pp": [
+        -0.356,
+        1.02
+      ]
+    },
+    {
+      "pair": "lightgbm minus segment",
+      "delta_pp": 2.085,
+      "approx_ci95_pp": [
+        1.241,
+        2.937
+      ]
+    },
+    {
+      "pair": "logistic minus segment",
+      "delta_pp": 1.75,
+      "approx_ci95_pp": [
+        0.832,
+        2.683
+      ]
+    }
+  ]
+}
