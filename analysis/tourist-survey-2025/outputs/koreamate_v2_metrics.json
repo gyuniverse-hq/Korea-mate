@@ -1,0 +1,1746 @@
+{
+  "source": "2025 foreign visitor survey, user supplied raw / codebook",
+  "n_all": 16110,
+  "n_eligible": 12339,
+  "n_eff_eligible": 8501.3,
+  "population": "Leisure/recreation/visit relatives (Q1 in 1,2)",
+  "activity_codes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16
+  ],
+  "activities": [
+    "식도락",
+    "쇼핑",
+    "자연경관",
+    "휴양·휴식",
+    "고궁·역사",
+    "전통문화체험",
+    "박물관·전시",
+    "K-pop·촬영지",
+    "공연",
+    "지역축제",
+    "유흥·나이트라이프",
+    "테마파크·오락",
+    "뷰티·미용서비스",
+    "스포츠 관람",
+    "스포츠 참여"
+  ],
+  "activity_pct": {
+    "식도락": 86.23,
+    "쇼핑": 86.45,
+    "자연경관": 58.12,
+    "휴양·휴식": 19.8,
+    "고궁·역사": 38.57,
+    "전통문화체험": 17.21,
+    "박물관·전시": 23.28,
+    "K-pop·촬영지": 15.87,
+    "공연": 4.75,
+    "지역축제": 4.05,
+    "유흥·나이트라이프": 9.92,
+    "테마파크·오락": 12.68,
+    "뷰티·미용서비스": 14.05,
+    "스포츠 관람": 1.58,
+    "스포츠 참여": 1.72
+  },
+  "association_top": [
+    {
+      "source_code": 8,
+      "source": "K-pop·촬영지",
+      "target_code": 9,
+      "target": "공연",
+      "support_pct": 2.227,
+      "source_pct": 15.872,
+      "target_pct": 4.745,
+      "cooccur_n": 283,
+      "confidence_pct": 14.03,
+      "lift": 2.956,
+      "increase_pp": 9.28,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 9,
+      "source": "공연",
+      "target_code": 8,
+      "target": "K-pop·촬영지",
+      "support_pct": 2.227,
+      "source_pct": 4.745,
+      "target_pct": 15.872,
+      "cooccur_n": 283,
+      "confidence_pct": 46.93,
+      "lift": 2.956,
+      "increase_pp": 31.05,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 6,
+      "source": "전통문화체험",
+      "target_code": 10,
+      "target": "지역축제",
+      "support_pct": 1.797,
+      "source_pct": 17.205,
+      "target_pct": 4.05,
+      "cooccur_n": 302,
+      "confidence_pct": 10.45,
+      "lift": 2.579,
+      "increase_pp": 6.4,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 10,
+      "source": "지역축제",
+      "target_code": 6,
+      "target": "전통문화체험",
+      "support_pct": 1.797,
+      "source_pct": 4.05,
+      "target_pct": 17.205,
+      "cooccur_n": 302,
+      "confidence_pct": 44.38,
+      "lift": 2.579,
+      "increase_pp": 27.17,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 7,
+      "source": "박물관·전시",
+      "target_code": 10,
+      "target": "지역축제",
+      "support_pct": 2.353,
+      "source_pct": 23.28,
+      "target_pct": 4.05,
+      "cooccur_n": 381,
+      "confidence_pct": 10.11,
+      "lift": 2.496,
+      "increase_pp": 6.06,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 10,
+      "source": "지역축제",
+      "target_code": 7,
+      "target": "박물관·전시",
+      "support_pct": 2.353,
+      "source_pct": 4.05,
+      "target_pct": 23.28,
+      "cooccur_n": 381,
+      "confidence_pct": 58.1,
+      "lift": 2.496,
+      "increase_pp": 34.82,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 6,
+      "source": "전통문화체험",
+      "target_code": 7,
+      "target": "박물관·전시",
+      "support_pct": 9.746,
+      "source_pct": 17.205,
+      "target_pct": 23.28,
+      "cooccur_n": 1660,
+      "confidence_pct": 56.65,
+      "lift": 2.433,
+      "increase_pp": 33.37,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 7,
+      "source": "박물관·전시",
+      "target_code": 6,
+      "target": "전통문화체험",
+      "support_pct": 9.746,
+      "source_pct": 23.28,
+      "target_pct": 17.205,
+      "cooccur_n": 1660,
+      "confidence_pct": 41.87,
+      "lift": 2.433,
+      "increase_pp": 24.66,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 5,
+      "source": "고궁·역사",
+      "target_code": 6,
+      "target": "전통문화체험",
+      "support_pct": 14.235,
+      "source_pct": 38.568,
+      "target_pct": 17.205,
+      "cooccur_n": 2405,
+      "confidence_pct": 36.91,
+      "lift": 2.145,
+      "increase_pp": 19.7,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 6,
+      "source": "전통문화체험",
+      "target_code": 5,
+      "target": "고궁·역사",
+      "support_pct": 14.235,
+      "source_pct": 17.205,
+      "target_pct": 38.568,
+      "cooccur_n": 2405,
+      "confidence_pct": 82.74,
+      "lift": 2.145,
+      "increase_pp": 44.17,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 4,
+      "source": "휴양·휴식",
+      "target_code": 10,
+      "target": "지역축제",
+      "support_pct": 1.682,
+      "source_pct": 19.796,
+      "target_pct": 4.05,
+      "cooccur_n": 286,
+      "confidence_pct": 8.5,
+      "lift": 2.098,
+      "increase_pp": 4.45,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 10,
+      "source": "지역축제",
+      "target_code": 4,
+      "target": "휴양·휴식",
+      "support_pct": 1.682,
+      "source_pct": 4.05,
+      "target_pct": 19.796,
+      "cooccur_n": 286,
+      "confidence_pct": 41.52,
+      "lift": 2.098,
+      "increase_pp": 21.73,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 5,
+      "source": "고궁·역사",
+      "target_code": 7,
+      "target": "박물관·전시",
+      "support_pct": 18.51,
+      "source_pct": 38.568,
+      "target_pct": 23.28,
+      "cooccur_n": 3030,
+      "confidence_pct": 47.99,
+      "lift": 2.062,
+      "increase_pp": 24.71,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 7,
+      "source": "박물관·전시",
+      "target_code": 5,
+      "target": "고궁·역사",
+      "support_pct": 18.51,
+      "source_pct": 23.28,
+      "target_pct": 38.568,
+      "cooccur_n": 3030,
+      "confidence_pct": 79.51,
+      "lift": 2.062,
+      "increase_pp": 40.94,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 10,
+      "source": "지역축제",
+      "target_code": 12,
+      "target": "테마파크·오락",
+      "support_pct": 1.019,
+      "source_pct": 4.05,
+      "target_pct": 12.685,
+      "cooccur_n": 175,
+      "confidence_pct": 25.16,
+      "lift": 1.983,
+      "increase_pp": 12.47,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 12,
+      "source": "테마파크·오락",
+      "target_code": 10,
+      "target": "지역축제",
+      "support_pct": 1.019,
+      "source_pct": 12.685,
+      "target_pct": 4.05,
+      "cooccur_n": 175,
+      "confidence_pct": 8.03,
+      "lift": 1.983,
+      "increase_pp": 3.98,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 5,
+      "source": "고궁·역사",
+      "target_code": 10,
+      "target": "지역축제",
+      "support_pct": 2.885,
+      "source_pct": 38.568,
+      "target_pct": 4.05,
+      "cooccur_n": 494,
+      "confidence_pct": 7.48,
+      "lift": 1.847,
+      "increase_pp": 3.43,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 10,
+      "source": "지역축제",
+      "target_code": 5,
+      "target": "고궁·역사",
+      "support_pct": 2.885,
+      "source_pct": 4.05,
+      "target_pct": 38.568,
+      "cooccur_n": 494,
+      "confidence_pct": 71.23,
+      "lift": 1.847,
+      "increase_pp": 32.66,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 11,
+      "source": "유흥·나이트라이프",
+      "target_code": 12,
+      "target": "테마파크·오락",
+      "support_pct": 2.18,
+      "source_pct": 9.925,
+      "target_pct": 12.685,
+      "cooccur_n": 355,
+      "confidence_pct": 21.97,
+      "lift": 1.732,
+      "increase_pp": 9.28,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 12,
+      "source": "테마파크·오락",
+      "target_code": 11,
+      "target": "유흥·나이트라이프",
+      "support_pct": 2.18,
+      "source_pct": 12.685,
+      "target_pct": 9.925,
+      "cooccur_n": 355,
+      "confidence_pct": 17.19,
+      "lift": 1.732,
+      "increase_pp": 7.26,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 7,
+      "source": "박물관·전시",
+      "target_code": 12,
+      "target": "테마파크·오락",
+      "support_pct": 5.07,
+      "source_pct": 23.28,
+      "target_pct": 12.685,
+      "cooccur_n": 837,
+      "confidence_pct": 21.78,
+      "lift": 1.717,
+      "increase_pp": 9.1,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 12,
+      "source": "테마파크·오락",
+      "target_code": 7,
+      "target": "박물관·전시",
+      "support_pct": 5.07,
+      "source_pct": 12.685,
+      "target_pct": 23.28,
+      "cooccur_n": 837,
+      "confidence_pct": 39.97,
+      "lift": 1.717,
+      "increase_pp": 16.69,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 6,
+      "source": "전통문화체험",
+      "target_code": 12,
+      "target": "테마파크·오락",
+      "support_pct": 3.683,
+      "source_pct": 17.205,
+      "target_pct": 12.685,
+      "cooccur_n": 629,
+      "confidence_pct": 21.41,
+      "lift": 1.688,
+      "increase_pp": 8.72,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 12,
+      "source": "테마파크·오락",
+      "target_code": 6,
+      "target": "전통문화체험",
+      "support_pct": 3.683,
+      "source_pct": 12.685,
+      "target_pct": 17.205,
+      "cooccur_n": 629,
+      "confidence_pct": 29.04,
+      "lift": 1.688,
+      "increase_pp": 11.83,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 6,
+      "source": "전통문화체험",
+      "target_code": 11,
+      "target": "유흥·나이트라이프",
+      "support_pct": 2.561,
+      "source_pct": 17.205,
+      "target_pct": 9.925,
+      "cooccur_n": 446,
+      "confidence_pct": 14.89,
+      "lift": 1.5,
+      "increase_pp": 4.96,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 11,
+      "source": "유흥·나이트라이프",
+      "target_code": 6,
+      "target": "전통문화체험",
+      "support_pct": 2.561,
+      "source_pct": 9.925,
+      "target_pct": 17.205,
+      "cooccur_n": 446,
+      "confidence_pct": 25.81,
+      "lift": 1.5,
+      "increase_pp": 8.6,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 5,
+      "source": "고궁·역사",
+      "target_code": 12,
+      "target": "테마파크·오락",
+      "support_pct": 7.162,
+      "source_pct": 38.568,
+      "target_pct": 12.685,
+      "cooccur_n": 1227,
+      "confidence_pct": 18.57,
+      "lift": 1.464,
+      "increase_pp": 5.88,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 12,
+      "source": "테마파크·오락",
+      "target_code": 5,
+      "target": "고궁·역사",
+      "support_pct": 7.162,
+      "source_pct": 12.685,
+      "target_pct": 38.568,
+      "cooccur_n": 1227,
+      "confidence_pct": 56.46,
+      "lift": 1.464,
+      "increase_pp": 17.89,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 4,
+      "source": "휴양·휴식",
+      "target_code": 6,
+      "target": "전통문화체험",
+      "support_pct": 4.8,
+      "source_pct": 19.796,
+      "target_pct": 17.205,
+      "cooccur_n": 888,
+      "confidence_pct": 24.25,
+      "lift": 1.409,
+      "increase_pp": 7.04,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 6,
+      "source": "전통문화체험",
+      "target_code": 4,
+      "target": "휴양·휴식",
+      "support_pct": 4.8,
+      "source_pct": 17.205,
+      "target_pct": 19.796,
+      "cooccur_n": 888,
+      "confidence_pct": 27.9,
+      "lift": 1.409,
+      "increase_pp": 8.11,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 3,
+      "source": "자연경관",
+      "target_code": 7,
+      "target": "박물관·전시",
+      "support_pct": 18.118,
+      "source_pct": 58.124,
+      "target_pct": 23.28,
+      "cooccur_n": 2851,
+      "confidence_pct": 31.17,
+      "lift": 1.339,
+      "increase_pp": 7.89,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 7,
+      "source": "박물관·전시",
+      "target_code": 3,
+      "target": "자연경관",
+      "support_pct": 18.118,
+      "source_pct": 23.28,
+      "target_pct": 58.124,
+      "cooccur_n": 2851,
+      "confidence_pct": 77.83,
+      "lift": 1.339,
+      "increase_pp": 19.7,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 3,
+      "source": "자연경관",
+      "target_code": 5,
+      "target": "고궁·역사",
+      "support_pct": 29.65,
+      "source_pct": 58.124,
+      "target_pct": 38.568,
+      "cooccur_n": 4637,
+      "confidence_pct": 51.01,
+      "lift": 1.323,
+      "increase_pp": 12.44,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 5,
+      "source": "고궁·역사",
+      "target_code": 3,
+      "target": "자연경관",
+      "support_pct": 29.65,
+      "source_pct": 38.568,
+      "target_pct": 58.124,
+      "cooccur_n": 4637,
+      "confidence_pct": 76.88,
+      "lift": 1.323,
+      "increase_pp": 18.75,
+      "eligible_rule": true
+    },
+    {
+      "source_code": 4,
+      "source": "휴양·휴식",
+      "target_code": 11,
+      "target": "유흥·나이트라이프",
+      "support_pct": 2.596,
+      "source_pct": 19.796,
+      "target_pct": 9.925,
+      "cooccur_n": 437,
+      "confidence_pct": 13.11,
+      "lift": 1.321,
+      "increase_pp": 3.19,
+      "eligible_rule": true
+    }
+  ],
+  "cluster": {
+    "search": [
+      {
+        "k": 3,
+        "silhouette": 0.2034,
+        "min_weighted_share": 0.1342,
+        "max_weighted_share": 0.6309,
+        "inertia": 111462.95
+      },
+      {
+        "k": 4,
+        "silhouette": 0.1935,
+        "min_weighted_share": 0.1131,
+        "max_weighted_share": 0.5446,
+        "inertia": 102679.56
+      },
+      {
+        "k": 5,
+        "silhouette": 0.15,
+        "min_weighted_share": 0.1216,
+        "max_weighted_share": 0.3058,
+        "inertia": 95278.47
+      },
+      {
+        "k": 6,
+        "silhouette": 0.2081,
+        "min_weighted_share": 0.077,
+        "max_weighted_share": 0.3977,
+        "inertia": 88238.57
+      },
+      {
+        "k": 7,
+        "silhouette": 0.2086,
+        "min_weighted_share": 0.1021,
+        "max_weighted_share": 0.3298,
+        "inertia": 82640.44
+      }
+    ],
+    "k": 7,
+    "seed_ari": 0.8645446857804053,
+    "feature_codes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "base_pct": {
+      "식도락": 86.23,
+      "쇼핑": 86.45,
+      "자연경관": 58.12,
+      "휴양·휴식": 19.8,
+      "고궁·역사": 38.57,
+      "전통문화체험": 17.21,
+      "박물관·전시": 23.28,
+      "K-pop·촬영지": 15.87,
+      "공연": 4.75,
+      "지역축제": 4.05,
+      "유흥·나이트라이프": 9.92,
+      "테마파크·오락": 12.68,
+      "뷰티·미용서비스": 14.05
+    },
+    "profiles": [
+      {
+        "cluster_id": 1,
+        "n": 1597,
+        "effective_n": 1066.4,
+        "weighted_share_pct": 10.64,
+        "suggested_label": "테마파크·오락 · 고궁·역사",
+        "top_relative": [
+          "테마파크·오락",
+          "고궁·역사",
+          "박물관·전시"
+        ],
+        "activities_pct": {
+          "식도락": 75.65,
+          "쇼핑": 81.92,
+          "자연경관": 60.34,
+          "휴양·휴식": 23.1,
+          "고궁·역사": 51.1,
+          "전통문화체험": 18.49,
+          "박물관·전시": 31.36,
+          "K-pop·촬영지": 10.33,
+          "공연": 4.89,
+          "지역축제": 6.67,
+          "유흥·나이트라이프": 16.68,
+          "테마파크·오락": 100,
+          "뷰티·미용서비스": 12.61
+        },
+        "vs_population_pp": {
+          "식도락": -10.58,
+          "쇼핑": -4.53,
+          "자연경관": 2.22,
+          "휴양·휴식": 3.31,
+          "고궁·역사": 12.54,
+          "전통문화체험": 1.28,
+          "박물관·전시": 8.08,
+          "K-pop·촬영지": -5.54,
+          "공연": 0.14,
+          "지역축제": 2.62,
+          "유흥·나이트라이프": 6.76,
+          "테마파크·오락": 87.32,
+          "뷰티·미용서비스": -1.44
+        }
+      },
+      {
+        "cluster_id": 2,
+        "n": 3238,
+        "effective_n": 2450.8,
+        "weighted_share_pct": 32.98,
+        "suggested_label": "쇼핑 · 식도락",
+        "top_relative": [
+          "쇼핑",
+          "식도락",
+          "유흥·나이트라이프"
+        ],
+        "activities_pct": {
+          "식도락": 92.94,
+          "쇼핑": 100,
+          "자연경관": 56.12,
+          "휴양·휴식": 0,
+          "고궁·역사": 19.28,
+          "전통문화체험": 2.42,
+          "박물관·전시": 5.46,
+          "K-pop·촬영지": 0,
+          "공연": 2.65,
+          "지역축제": 1.34,
+          "유흥·나이트라이프": 8.01,
+          "테마파크·오락": 0,
+          "뷰티·미용서비스": 0
+        },
+        "vs_population_pp": {
+          "식도락": 6.71,
+          "쇼핑": 13.55,
+          "자연경관": -2,
+          "휴양·휴식": -19.8,
+          "고궁·역사": -19.28,
+          "전통문화체험": -14.78,
+          "박물관·전시": -17.82,
+          "K-pop·촬영지": -15.87,
+          "공연": -2.1,
+          "지역축제": -2.71,
+          "유흥·나이트라이프": -1.91,
+          "테마파크·오락": -12.68,
+          "뷰티·미용서비스": -14.05
+        }
+      },
+      {
+        "cluster_id": 3,
+        "n": 1201,
+        "effective_n": 848,
+        "weighted_share_pct": 10.51,
+        "suggested_label": "뷰티·미용서비스 · 쇼핑",
+        "top_relative": [
+          "뷰티·미용서비스",
+          "쇼핑",
+          "식도락"
+        ],
+        "activities_pct": {
+          "식도락": 87.31,
+          "쇼핑": 94.55,
+          "자연경관": 38.04,
+          "휴양·휴식": 12.79,
+          "고궁·역사": 19.81,
+          "전통문화체험": 5.56,
+          "박물관·전시": 6.39,
+          "K-pop·촬영지": 12.81,
+          "공연": 3.3,
+          "지역축제": 2.13,
+          "유흥·나이트라이프": 7.89,
+          "테마파크·오락": 0.91,
+          "뷰티·미용서비스": 100
+        },
+        "vs_population_pp": {
+          "식도락": 1.08,
+          "쇼핑": 8.1,
+          "자연경관": -20.09,
+          "휴양·휴식": -7,
+          "고궁·역사": -18.76,
+          "전통문화체험": -11.65,
+          "박물관·전시": -16.89,
+          "K-pop·촬영지": -3.07,
+          "공연": -1.45,
+          "지역축제": -1.92,
+          "유흥·나이트라이프": -2.04,
+          "테마파크·오락": -11.77,
+          "뷰티·미용서비스": 85.95
+        }
+      },
+      {
+        "cluster_id": 4,
+        "n": 1603,
+        "effective_n": 1080.2,
+        "weighted_share_pct": 10.21,
+        "suggested_label": "휴양·휴식 · 쇼핑",
+        "top_relative": [
+          "휴양·휴식",
+          "쇼핑",
+          "자연경관"
+        ],
+        "activities_pct": {
+          "식도락": 81.55,
+          "쇼핑": 100,
+          "자연경관": 68.69,
+          "휴양·휴식": 100,
+          "고궁·역사": 44.6,
+          "전통문화체험": 10.79,
+          "박물관·전시": 15.66,
+          "K-pop·촬영지": 3.39,
+          "공연": 2.58,
+          "지역축제": 4.62,
+          "유흥·나이트라이프": 10.17,
+          "테마파크·오락": 0,
+          "뷰티·미용서비스": 2.67
+        },
+        "vs_population_pp": {
+          "식도락": -4.67,
+          "쇼핑": 13.55,
+          "자연경관": 10.56,
+          "휴양·휴식": 80.2,
+          "고궁·역사": 6.03,
+          "전통문화체험": -6.42,
+          "박물관·전시": -7.62,
+          "K-pop·촬영지": -12.48,
+          "공연": -2.16,
+          "지역축제": 0.57,
+          "유흥·나이트라이프": 0.25,
+          "테마파크·오락": -12.68,
+          "뷰티·미용서비스": -11.38
+        }
+      },
+      {
+        "cluster_id": 5,
+        "n": 2370,
+        "effective_n": 1647.3,
+        "weighted_share_pct": 14.75,
+        "suggested_label": "박물관·전시 · 고궁·역사",
+        "top_relative": [
+          "박물관·전시",
+          "고궁·역사",
+          "전통문화체험"
+        ],
+        "activities_pct": {
+          "식도락": 91.29,
+          "쇼핑": 97.41,
+          "자연경관": 83.77,
+          "휴양·휴식": 18.85,
+          "고궁·역사": 97.21,
+          "전통문화체험": 75.57,
+          "박물관·전시": 84.7,
+          "K-pop·촬영지": 11.17,
+          "공연": 4.69,
+          "지역축제": 11.31,
+          "유흥·나이트라이프": 14.31,
+          "테마파크·오락": 11.64,
+          "뷰티·미용서비스": 9.74
+        },
+        "vs_population_pp": {
+          "식도락": 5.07,
+          "쇼핑": 10.96,
+          "자연경관": 25.64,
+          "휴양·휴식": -0.95,
+          "고궁·역사": 58.65,
+          "전통문화체험": 58.37,
+          "박물관·전시": 61.42,
+          "K-pop·촬영지": -4.7,
+          "공연": -0.05,
+          "지역축제": 7.26,
+          "유흥·나이트라이프": 4.39,
+          "테마파크·오락": -1.04,
+          "뷰티·미용서비스": -4.31
+        }
+      },
+      {
+        "cluster_id": 6,
+        "n": 1331,
+        "effective_n": 932.7,
+        "weighted_share_pct": 10.42,
+        "suggested_label": "자연경관 · 휴양·휴식",
+        "top_relative": [
+          "자연경관",
+          "휴양·휴식",
+          "고궁·역사"
+        ],
+        "activities_pct": {
+          "식도락": 69.26,
+          "쇼핑": 0,
+          "자연경관": 70.89,
+          "휴양·휴식": 23.71,
+          "고궁·역사": 41.61,
+          "전통문화체험": 12.32,
+          "박물관·전시": 26.03,
+          "K-pop·촬영지": 8.94,
+          "공연": 3.16,
+          "지역축제": 4.05,
+          "유흥·나이트라이프": 10.52,
+          "테마파크·오락": 0,
+          "뷰티·미용서비스": 4.31
+        },
+        "vs_population_pp": {
+          "식도락": -16.97,
+          "쇼핑": -86.45,
+          "자연경관": 12.77,
+          "휴양·휴식": 3.92,
+          "고궁·역사": 3.04,
+          "전통문화체험": -4.88,
+          "박물관·전시": 2.75,
+          "K-pop·촬영지": -6.94,
+          "공연": -1.58,
+          "지역축제": 0,
+          "유흥·나이트라이프": 0.59,
+          "테마파크·오락": -12.68,
+          "뷰티·미용서비스": -9.74
+        }
+      },
+      {
+        "cluster_id": 7,
+        "n": 999,
+        "effective_n": 729,
+        "weighted_share_pct": 10.5,
+        "suggested_label": "K-pop·촬영지 · 공연",
+        "top_relative": [
+          "K-pop·촬영지",
+          "공연",
+          "쇼핑"
+        ],
+        "activities_pct": {
+          "식도락": 89.04,
+          "쇼핑": 97.55,
+          "자연경관": 23.34,
+          "휴양·휴식": 5.11,
+          "고궁·역사": 13.97,
+          "전통문화체험": 3.11,
+          "박물관·전시": 6.4,
+          "K-pop·촬영지": 100,
+          "공연": 16.38,
+          "지역축제": 1.08,
+          "유흥·나이트라이프": 4.15,
+          "테마파크·오락": 2.25,
+          "뷰티·미용서비스": 0.41
+        },
+        "vs_population_pp": {
+          "식도락": 2.82,
+          "쇼핑": 11.1,
+          "자연경관": -34.78,
+          "휴양·휴식": -14.69,
+          "고궁·역사": -24.59,
+          "전통문화체험": -14.09,
+          "박물관·전시": -16.88,
+          "K-pop·촬영지": 84.13,
+          "공연": 11.64,
+          "지역축제": -2.97,
+          "유흥·나이트라이프": -5.78,
+          "테마파크·오락": -10.43,
+          "뷰티·미용서비스": -13.64
+        }
+      }
+    ]
+  },
+  "recommendation": {
+    "split": {
+      "train": 8194,
+      "validation": 2094,
+      "test": 2051
+    },
+    "fields": [
+      "D_NAT",
+      "D_AGE",
+      "D_SEX",
+      "D_NUM",
+      "Q1",
+      "TYP"
+    ],
+    "activities": [
+      "식도락",
+      "쇼핑",
+      "자연경관",
+      "휴양·휴식",
+      "고궁·역사",
+      "전통문화체험",
+      "박물관·전시",
+      "K-pop·촬영지",
+      "공연",
+      "지역축제",
+      "유흥·나이트라이프",
+      "테마파크·오락",
+      "뷰티·미용서비스",
+      "스포츠 관람",
+      "스포츠 참여"
+    ],
+    "target_definition": "2025 관광활동 실제 참여 Q8a01..16; 의료/건강검진 제외",
+    "model_input_definition": "방문 전에 응답 가능한 D_NAT,D_AGE,D_SEX,D_NUM,Q1,TYP",
+    "validation": {
+      "전체 인기순": {
+        "all": {
+          "ndcg_at_3": 0.832456,
+          "recall_at_3": 0.639038,
+          "hit_at_3": 0.982428,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.618833,
+          "recall_at_3": 0.544208,
+          "hit_at_3": 0.771935,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      },
+      "세그먼트 인기순 α=25": {
+        "all": {
+          "ndcg_at_3": 0.84149,
+          "recall_at_3": 0.646484,
+          "hit_at_3": 0.983781,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.672979,
+          "recall_at_3": 0.624789,
+          "hit_at_3": 0.86142,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      },
+      "세그먼트 인기순 α=80": {
+        "all": {
+          "ndcg_at_3": 0.842088,
+          "recall_at_3": 0.646096,
+          "hit_at_3": 0.983057,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.669687,
+          "recall_at_3": 0.619164,
+          "hit_at_3": 0.854992,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      },
+      "세그먼트 인기순 α=180": {
+        "all": {
+          "ndcg_at_3": 0.841133,
+          "recall_at_3": 0.644714,
+          "hit_at_3": 0.984325,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.667858,
+          "recall_at_3": 0.61817,
+          "hit_at_3": 0.853229,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      },
+      "로지스틱 회귀": {
+        "all": {
+          "ndcg_at_3": 0.843951,
+          "recall_at_3": 0.646837,
+          "hit_at_3": 0.983468,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.691687,
+          "recall_at_3": 0.655783,
+          "hit_at_3": 0.880033,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      },
+      "LightGBM leaves=7": {
+        "all": {
+          "ndcg_at_3": 0.848002,
+          "recall_at_3": 0.651636,
+          "hit_at_3": 0.987103,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.698915,
+          "recall_at_3": 0.660161,
+          "hit_at_3": 0.88589,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      },
+      "LightGBM leaves=15": {
+        "all": {
+          "ndcg_at_3": 0.845523,
+          "recall_at_3": 0.649319,
+          "hit_at_3": 0.988386,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.696285,
+          "recall_at_3": 0.66326,
+          "hit_at_3": 0.891317,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      },
+      "LightGBM 최소입력": {
+        "all": {
+          "ndcg_at_3": 0.84395,
+          "recall_at_3": 0.647384,
+          "hit_at_3": 0.983453,
+          "coverage_pct": 99.68,
+          "n_valid": 2087
+        },
+        "exploration": {
+          "ndcg_at_3": 0.689803,
+          "recall_at_3": 0.651955,
+          "hit_at_3": 0.881889,
+          "coverage_pct": 89.524,
+          "n_valid": 1944
+        }
+      }
+    },
+    "test": {
+      "전체 인기순": {
+        "all": {
+          "ndcg_at_3": 0.841535,
+          "recall_at_3": 0.666981,
+          "hit_at_3": 0.980903,
+          "coverage_pct": 99.943,
+          "n_valid": 2048
+        },
+        "exploration": {
+          "ndcg_at_3": 0.664039,
+          "recall_at_3": 0.58409,
+          "hit_at_3": 0.807634,
+          "coverage_pct": 90.476,
+          "n_valid": 1914
+        }
+      },
+      "세그먼트 인기순": {
+        "all": {
+          "ndcg_at_3": 0.848652,
+          "recall_at_3": 0.663759,
+          "hit_at_3": 0.98246,
+          "coverage_pct": 99.943,
+          "n_valid": 2048
+        },
+        "exploration": {
+          "ndcg_at_3": 0.705835,
+          "recall_at_3": 0.666596,
+          "hit_at_3": 0.88896,
+          "coverage_pct": 90.476,
+          "n_valid": 1914
+        }
+      },
+      "로지스틱 회귀": {
+        "all": {
+          "ndcg_at_3": 0.849535,
+          "recall_at_3": 0.665871,
+          "hit_at_3": 0.982913,
+          "coverage_pct": 99.943,
+          "n_valid": 2048
+        },
+        "exploration": {
+          "ndcg_at_3": 0.723334,
+          "recall_at_3": 0.690761,
+          "hit_at_3": 0.905838,
+          "coverage_pct": 90.476,
+          "n_valid": 1914
+        }
+      },
+      "LightGBM": {
+        "all": {
+          "ndcg_at_3": 0.85612,
+          "recall_at_3": 0.670293,
+          "hit_at_3": 0.985528,
+          "coverage_pct": 99.943,
+          "n_valid": 2048
+        },
+        "exploration": {
+          "ndcg_at_3": 0.726682,
+          "recall_at_3": 0.690164,
+          "hit_at_3": 0.904635,
+          "coverage_pct": 90.476,
+          "n_valid": 1914
+        }
+      },
+      "LightGBM 최소입력": {
+        "all": {
+          "ndcg_at_3": 0.851571,
+          "recall_at_3": 0.667555,
+          "hit_at_3": 0.985594,
+          "coverage_pct": 99.943,
+          "n_valid": 2048
+        },
+        "exploration": {
+          "ndcg_at_3": 0.7184,
+          "recall_at_3": 0.680555,
+          "hit_at_3": 0.898194,
+          "coverage_pct": 90.476,
+          "n_valid": 1914
+        }
+      }
+    },
+    "test_segments": [
+      {
+        "group": "중국 20대 여성",
+        "n": 101,
+        "neff": 96.3,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.701802,
+            "recall_at_3": 0.651726,
+            "hit_at_3": 0.840014,
+            "coverage_pct": 94.799,
+            "n_valid": 96
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.781034,
+            "recall_at_3": 0.82667,
+            "hit_at_3": 0.949737,
+            "coverage_pct": 94.799,
+            "n_valid": 96
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.82007,
+            "recall_at_3": 0.841716,
+            "hit_at_3": 0.95795,
+            "coverage_pct": 94.799,
+            "n_valid": 96
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.80072,
+            "recall_at_3": 0.849629,
+            "hit_at_3": 0.95795,
+            "coverage_pct": 94.799,
+            "n_valid": 96
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.781977,
+            "recall_at_3": 0.832283,
+            "hit_at_3": 0.95795,
+            "coverage_pct": 94.799,
+            "n_valid": 96
+          }
+        }
+      },
+      {
+        "group": "일본 20대 여성",
+        "n": 98,
+        "neff": 96.1,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.473286,
+            "recall_at_3": 0.420258,
+            "hit_at_3": 0.631344,
+            "coverage_pct": 74.988,
+            "n_valid": 73
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.618978,
+            "recall_at_3": 0.665787,
+            "hit_at_3": 0.890201,
+            "coverage_pct": 74.988,
+            "n_valid": 73
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.647207,
+            "recall_at_3": 0.727607,
+            "hit_at_3": 0.952764,
+            "coverage_pct": 74.988,
+            "n_valid": 73
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.642326,
+            "recall_at_3": 0.719787,
+            "hit_at_3": 0.952764,
+            "coverage_pct": 74.988,
+            "n_valid": 73
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.64774,
+            "recall_at_3": 0.717232,
+            "hit_at_3": 0.952764,
+            "coverage_pct": 74.988,
+            "n_valid": 73
+          }
+        }
+      },
+      {
+        "group": "대만 20대 여성",
+        "n": 51,
+        "neff": 49.2,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.62742,
+            "recall_at_3": 0.522987,
+            "hit_at_3": 0.769961,
+            "coverage_pct": 93.678,
+            "n_valid": 48
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.699819,
+            "recall_at_3": 0.646881,
+            "hit_at_3": 0.854625,
+            "coverage_pct": 93.678,
+            "n_valid": 48
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.705184,
+            "recall_at_3": 0.646265,
+            "hit_at_3": 0.906146,
+            "coverage_pct": 93.678,
+            "n_valid": 48
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.714339,
+            "recall_at_3": 0.65682,
+            "hit_at_3": 0.888973,
+            "coverage_pct": 93.678,
+            "n_valid": 48
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.718822,
+            "recall_at_3": 0.654031,
+            "hit_at_3": 0.871799,
+            "coverage_pct": 93.678,
+            "n_valid": 48
+          }
+        }
+      },
+      {
+        "group": "첫 방문",
+        "n": 1043,
+        "neff": 783.8,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.754352,
+            "recall_at_3": 0.64679,
+            "hit_at_3": 0.890841,
+            "coverage_pct": 95.759,
+            "n_valid": 1014
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.766256,
+            "recall_at_3": 0.666732,
+            "hit_at_3": 0.918562,
+            "coverage_pct": 95.759,
+            "n_valid": 1014
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.780529,
+            "recall_at_3": 0.687302,
+            "hit_at_3": 0.932413,
+            "coverage_pct": 95.759,
+            "n_valid": 1014
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.782301,
+            "recall_at_3": 0.689847,
+            "hit_at_3": 0.933648,
+            "coverage_pct": 95.759,
+            "n_valid": 1014
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.77552,
+            "recall_at_3": 0.681073,
+            "hit_at_3": 0.930302,
+            "coverage_pct": 95.759,
+            "n_valid": 1014
+          }
+        }
+      },
+      {
+        "group": "재방문",
+        "n": 1008,
+        "neff": 811,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.579123,
+            "recall_at_3": 0.525137,
+            "hit_at_3": 0.7294,
+            "coverage_pct": 86.015,
+            "n_valid": 900
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.649024,
+            "recall_at_3": 0.666467,
+            "hit_at_3": 0.861126,
+            "coverage_pct": 86.015,
+            "n_valid": 900
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.669558,
+            "recall_at_3": 0.694013,
+            "hit_at_3": 0.880852,
+            "coverage_pct": 86.015,
+            "n_valid": 900
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.674388,
+            "recall_at_3": 0.690462,
+            "hit_at_3": 0.877355,
+            "coverage_pct": 86.015,
+            "n_valid": 900
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.664693,
+            "recall_at_3": 0.680068,
+            "hit_at_3": 0.868004,
+            "coverage_pct": 86.015,
+            "n_valid": 900
+          }
+        }
+      },
+      {
+        "group": "20대",
+        "n": 766,
+        "neff": 569.1,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.641284,
+            "recall_at_3": 0.551161,
+            "hit_at_3": 0.804057,
+            "coverage_pct": 91.375,
+            "n_valid": 722
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.69785,
+            "recall_at_3": 0.659095,
+            "hit_at_3": 0.897888,
+            "coverage_pct": 91.375,
+            "n_valid": 722
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.716633,
+            "recall_at_3": 0.684428,
+            "hit_at_3": 0.925269,
+            "coverage_pct": 91.375,
+            "n_valid": 722
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.712788,
+            "recall_at_3": 0.688054,
+            "hit_at_3": 0.92483,
+            "coverage_pct": 91.375,
+            "n_valid": 722
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.706814,
+            "recall_at_3": 0.676731,
+            "hit_at_3": 0.917876,
+            "coverage_pct": 91.375,
+            "n_valid": 722
+          }
+        }
+      },
+      {
+        "group": "30대",
+        "n": 477,
+        "neff": 375.6,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.679059,
+            "recall_at_3": 0.602276,
+            "hit_at_3": 0.812279,
+            "coverage_pct": 88.087,
+            "n_valid": 436
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.693598,
+            "recall_at_3": 0.641011,
+            "hit_at_3": 0.867537,
+            "coverage_pct": 88.087,
+            "n_valid": 436
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.7062,
+            "recall_at_3": 0.668919,
+            "hit_at_3": 0.884021,
+            "coverage_pct": 88.087,
+            "n_valid": 436
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.723984,
+            "recall_at_3": 0.674408,
+            "hit_at_3": 0.885482,
+            "coverage_pct": 88.087,
+            "n_valid": 436
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.714437,
+            "recall_at_3": 0.667704,
+            "hit_at_3": 0.881239,
+            "coverage_pct": 88.087,
+            "n_valid": 436
+          }
+        }
+      },
+      {
+        "group": "여성",
+        "n": 1362,
+        "neff": 1064.9,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.644649,
+            "recall_at_3": 0.569577,
+            "hit_at_3": 0.793213,
+            "coverage_pct": 89.284,
+            "n_valid": 1261
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.701884,
+            "recall_at_3": 0.679086,
+            "hit_at_3": 0.894604,
+            "coverage_pct": 89.284,
+            "n_valid": 1261
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.713773,
+            "recall_at_3": 0.695655,
+            "hit_at_3": 0.907638,
+            "coverage_pct": 89.284,
+            "n_valid": 1261
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.717323,
+            "recall_at_3": 0.694345,
+            "hit_at_3": 0.905418,
+            "coverage_pct": 89.284,
+            "n_valid": 1261
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.711978,
+            "recall_at_3": 0.689204,
+            "hit_at_3": 0.903877,
+            "coverage_pct": 89.284,
+            "n_valid": 1261
+          }
+        }
+      },
+      {
+        "group": "남성",
+        "n": 689,
+        "neff": 526.8,
+        "metric": {
+          "전체 인기순": {
+            "ndcg_at_3": 0.705997,
+            "recall_at_3": 0.615493,
+            "hit_at_3": 0.838841,
+            "coverage_pct": 93.168,
+            "n_valid": 653
+          },
+          "세그먼트 인기순": {
+            "ndcg_at_3": 0.714384,
+            "recall_at_3": 0.639567,
+            "hit_at_3": 0.876747,
+            "coverage_pct": 93.168,
+            "n_valid": 653
+          },
+          "로지스틱 회귀": {
+            "ndcg_at_3": 0.744025,
+            "recall_at_3": 0.68017,
+            "hit_at_3": 0.901944,
+            "coverage_pct": 93.168,
+            "n_valid": 653
+          },
+          "LightGBM": {
+            "ndcg_at_3": 0.746936,
+            "recall_at_3": 0.681117,
+            "hit_at_3": 0.902941,
+            "coverage_pct": 93.168,
+            "n_valid": 653
+          },
+          "LightGBM 최소입력": {
+            "ndcg_at_3": 0.732296,
+            "recall_at_3": 0.661839,
+            "hit_at_3": 0.885895,
+            "coverage_pct": 93.168,
+            "n_valid": 653
+          }
+        }
+      }
+    ],
+    "validation_choices": {
+      "세그먼트 인기순": "세그먼트 인기순 α=25",
+      "LightGBM": "LightGBM leaves=7"
+    },
+    "test_lifts_pp": {
+      "전체 인기순": {
+        "all": 0,
+        "exploration": 0
+      },
+      "세그먼트 인기순": {
+        "all": 0.71,
+        "exploration": 4.18
+      },
+      "로지스틱 회귀": {
+        "all": 0.8,
+        "exploration": 5.93
+      },
+      "LightGBM": {
+        "all": 1.46,
+        "exploration": 6.26
+      },
+      "LightGBM 최소입력": {
+        "all": 1,
+        "exploration": 5.44
+      }
+    },
+    "paired_bootstrap_approx_ci": {
+      "all/세그먼트 인기순": {
+        "observed_pp": 0.712,
+        "lower_pp": 0.224,
+        "upper_pp": 1.165,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      },
+      "all/로지스틱 회귀": {
+        "observed_pp": 0.8,
+        "lower_pp": 0.255,
+        "upper_pp": 1.304,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      },
+      "all/LightGBM": {
+        "observed_pp": 1.458,
+        "lower_pp": 0.906,
+        "upper_pp": 2.073,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      },
+      "all/LightGBM 최소입력": {
+        "observed_pp": 1.004,
+        "lower_pp": 0.543,
+        "upper_pp": 1.51,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      },
+      "exploration/세그먼트 인기순": {
+        "observed_pp": 4.18,
+        "lower_pp": 3.029,
+        "upper_pp": 5.372,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      },
+      "exploration/로지스틱 회귀": {
+        "observed_pp": 5.93,
+        "lower_pp": 4.516,
+        "upper_pp": 7.417,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      },
+      "exploration/LightGBM": {
+        "observed_pp": 6.264,
+        "lower_pp": 4.7,
+        "upper_pp": 7.741,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      },
+      "exploration/LightGBM 최소입력": {
+        "observed_pp": 5.436,
+        "lower_pp": 4.035,
+        "upper_pp": 6.838,
+        "bootstrap_repetitions": 500,
+        "caution": "독립 응답자 단위 재표집; 층화·가중치 추정 불확실성을 완전 반영하지 않음"
+      }
+    },
+    "train_month_activity_rate": {
+      "식도락": 86.17,
+      "쇼핑": 86.79,
+      "자연경관": 56.57,
+      "휴양·휴식": 20.16,
+      "고궁·역사": 38.43,
+      "전통문화체험": 16.85,
+      "박물관·전시": 22.95,
+      "K-pop·촬영지": 16.62,
+      "공연": 5.11,
+      "지역축제": 3.44,
+      "유흥·나이트라이프": 9.81,
+      "테마파크·오락": 13.19,
+      "뷰티·미용서비스": 14.03,
+      "스포츠 관람": 1.7,
+      "스포츠 참여": 1.8
+    },
+    "test_month_activity_rate": {
+      "식도락": 86.99,
+      "쇼핑": 84.66,
+      "자연경관": 64.99,
+      "휴양·휴식": 20.3,
+      "고궁·역사": 37.77,
+      "전통문화체험": 16.08,
+      "박물관·전시": 21.6,
+      "K-pop·촬영지": 11.68,
+      "공연": 3.38,
+      "지역축제": 5.81,
+      "유흥·나이트라이프": 10.63,
+      "테마파크·오락": 11.56,
+      "뷰티·미용서비스": 14.06,
+      "스포츠 관람": 1.18,
+      "스포츠 참여": 2.04
+    },
+    "profile_examples": [
+      {
+        "input": "중국·20대·여성·첫방문·여가·개별",
+        "top5": [
+          {
+            "activity": "식도락",
+            "estimated_p": 0.869
+          },
+          {
+            "activity": "쇼핑",
+            "estimated_p": 0.831
+          },
+          {
+            "activity": "자연경관",
+            "estimated_p": 0.572
+          },
+          {
+            "activity": "K-pop·촬영지",
+            "estimated_p": 0.246
+          },
+          {
+            "activity": "테마파크·오락",
+            "estimated_p": 0.117
+          }
+        ]
+      },
+      {
+        "input": "일본·20대·여성·재방문·여가·개별",
+        "top5": [
+          {
+            "activity": "식도락",
+            "estimated_p": 0.967
+          },
+          {
+            "activity": "쇼핑",
+            "estimated_p": 0.95
+          },
+          {
+            "activity": "자연경관",
+            "estimated_p": 0.468
+          },
+          {
+            "activity": "뷰티·미용서비스",
+            "estimated_p": 0.239
+          },
+          {
+            "activity": "K-pop·촬영지",
+            "estimated_p": 0.183
+          }
+        ]
+      },
+      {
+        "input": "미국·30대·남성·첫방문·여가·개별",
+        "top5": [
+          {
+            "activity": "쇼핑",
+            "estimated_p": 0.772
+          },
+          {
+            "activity": "고궁·역사",
+            "estimated_p": 0.742
+          },
+          {
+            "activity": "식도락",
+            "estimated_p": 0.719
+          },
+          {
+            "activity": "자연경관",
+            "estimated_p": 0.58
+          },
+          {
+            "activity": "박물관·전시",
+            "estimated_p": 0.499
+          }
+        ]
+      }
+    ]
+  },
+  "cautions": [
+    "사후 실제 경험(Q8)은 군집 설명과 정답으로만 사용",
+    "연관규칙은 인과·선호·필요를 증명하지 않음",
+    "가중치 반영, 원조사 복합표본 분산설계 미반영",
+    "예측 정답은 실제 여행활동이지 클릭/저장/만족/추천 성과가 아님",
+    "아직 앱 로그가 없어 행동 기반 추천 성능 미평가",
+    "의료/건강검진 활동은 추천 후보에서 제외"
+  ]
+}
