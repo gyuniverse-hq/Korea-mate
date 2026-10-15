@@ -10,6 +10,7 @@
 - `scripts/koreamate_v3_logit_sensitivity.py`: 로지스틱 민감도 검산
 - `scripts/koreamate_step9_10_audit.py`: **EDA v4 원자료 구조/가중치 검증 및 월·지역 집계 생성**
 - `scripts/create_eda_charts.py`: **EDA v4 지역·월별 차트 생성**
+- [`external-data/`](external-data/README.md): **EDA v5 외부 행사·관광 API 정규화·선택적 호출·합성 단위 테스트 11건**
 - `outputs/*.csv`, `outputs/*.json`: 응답자별 기록 없는 **집계** 결과
 - `requirements.txt`: 기존 v2/v3 패키지 범위(정확한 잠금 파일 아님)
 
@@ -47,7 +48,8 @@ python analysis/tourist-survey-2025/scripts/koreamate_step9_10_audit.py \
 - EDA v3 통제분석 집계 JSON: **정확한 수치 일치**
 - EDA v3 로지스틱 효과 추정치: **일치**(최적화 반복 횟수 2개는 다름)
 - EDA v4 16,110명·408개 변수, 중복·가중치·월/분기·코드 및 과거 대표 지표 대조: **통과**
-- 복합표본 공식 표준오차 계산/외부 데이터 API 실호출·계절성 장기 검증: **미진행**
+- 외부 행사·관광 API의 **공식 필드 확인, 합성 데이터 정규화 테스트 11건 통과**. 서울시 공개 샘플 실제 호출은 네트워크 오류, TourAPI는 인증키 부재로 실데이터 레코드 테스트 **미완료**.
+- 복합표본 공식 표준오차 계산·행사 실데이터 품질 실측·계절성 장기 검증: **미진행**
 
 ## 데이터 해석과 공유 제한
 
