@@ -13,6 +13,7 @@
 | 중간검토 | [eda-midreview-2026-10-15.md](eda-midreview-2026-10-15.md) | 가설 근거 수준, 입력정보 축소, 재표집 민감도 |
 | EDA 3차 | [eda-v3.md](eda-v3.md) | 국적·연령 등 통제 후 활동 차이 및 정보 부족 |
 | 공통 방법 | [methodology.md](methodology.md) | 분모·가중치·조사 문항 한계·재현 범위 |
+| 후속 검증 | [next-steps.md](next-steps.md) | 분석 재현, 추가 EDA, 직접 사용자 과제, 팀 결정 기준 |
 
 ## 주요 발견 (판단 보류)
 
