@@ -1,0 +1,34 @@
+# Private keys and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local raw survey microdata - NEVER commit
+2025_eda_raw.csv
+2025_raw.xlsx
+2025년_외래관광객조사_원자료.zip
+2025년_외래관광객조사_코드북.xlsx
+**/data/raw/
+**/raw_data/
+**/microdata/
+**/respondent_level/
+**/*_respondents.csv
+**/*_individual_records.csv
+
+# Build outputs / local cache
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
