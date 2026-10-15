@@ -1,0 +1,104 @@
+{
+  "data_split": "Train+Validation 2025 Jan-Oct, Test Nov-Dec",
+  "n_trainval": 10288,
+  "n_test": 2051,
+  "leaves": 7,
+  "models": {
+    "6개: 국가·연령·성별·방문횟수·목적·여행형태": {
+      "input_features": [
+        "D_NAT",
+        "D_AGE",
+        "D_SEX",
+        "D_NUM",
+        "Q1",
+        "TYP"
+      ],
+      "ndcg_at_3": 0.726682,
+      "recall_at_3": 0.690164,
+      "hit_at_3": 0.904635,
+      "coverage_pct": 90.476,
+      "n_valid": 1914
+    },
+    "5개: 성별 제외": {
+      "input_features": [
+        "D_NAT",
+        "D_AGE",
+        "D_NUM",
+        "Q1",
+        "TYP"
+      ],
+      "ndcg_at_3": 0.723828,
+      "recall_at_3": 0.690236,
+      "hit_at_3": 0.907296,
+      "coverage_pct": 90.476,
+      "n_valid": 1914
+    },
+    "4개: 국가·연령·성별·방문횟수": {
+      "input_features": [
+        "D_NAT",
+        "D_AGE",
+        "D_SEX",
+        "D_NUM"
+      ],
+      "ndcg_at_3": 0.7184,
+      "recall_at_3": 0.680555,
+      "hit_at_3": 0.898194,
+      "coverage_pct": 90.476,
+      "n_valid": 1914
+    },
+    "3개: 국가·연령·방문횟수": {
+      "input_features": [
+        "D_NAT",
+        "D_AGE",
+        "D_NUM"
+      ],
+      "ndcg_at_3": 0.712358,
+      "recall_at_3": 0.673386,
+      "hit_at_3": 0.890531,
+      "coverage_pct": 90.476,
+      "n_valid": 1914
+    },
+    "2개: 국가·방문횟수": {
+      "input_features": [
+        "D_NAT",
+        "D_NUM"
+      ],
+      "ndcg_at_3": 0.707744,
+      "recall_at_3": 0.65879,
+      "hit_at_3": 0.884789,
+      "coverage_pct": 90.476,
+      "n_valid": 1914
+    }
+  },
+  "contrasts": {
+    "3개: 국가·연령·방문횟수 minus 4개: 국가·연령·성별·방문횟수": {
+      "delta_pp": -0.604,
+      "approx_ci95_pp": [
+        -1.207,
+        -0.006
+      ]
+    },
+    "5개: 성별 제외 minus 6개: 국가·연령·성별·방문횟수·목적·여행형태": {
+      "delta_pp": -0.285,
+      "approx_ci95_pp": [
+        -0.901,
+        0.363
+      ]
+    },
+    "2개: 국가·방문횟수 minus 3개: 국가·연령·방문횟수": {
+      "delta_pp": -0.461,
+      "approx_ci95_pp": [
+        -1.301,
+        0.335
+      ]
+    },
+    "3개: 국가·연령·방문횟수 minus 6개: 국가·연령·성별·방문횟수·목적·여행형태": {
+      "delta_pp": -1.432,
+      "approx_ci95_pp": [
+        -2.286,
+        -0.536
+      ]
+    }
+  },
+  "note": "All variants share same test and training; explorative ablation after prior v2, not a new untouched evaluation."
+}
