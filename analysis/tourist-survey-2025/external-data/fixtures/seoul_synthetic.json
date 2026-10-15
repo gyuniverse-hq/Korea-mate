@@ -1,0 +1,13 @@
+{
+  "NOTICE": "SYNTHETIC FIXTURE ONLY. Not a response from Seoul Open API.",
+  "culturalEventInfo": {
+    "RESULT": {"CODE": "INFO-000", "MESSAGE": "Synthetic fixture"},
+    "list_total_count": 4,
+    "row": [
+      {"TITLE": "가상 서울 문화행사", "CODENAME": "전시", "GUNAME": "종로구", "PLACE": "가상 행사장", "STRTDATE": "2026-10-15", "END_DATE": "2026-10-18", "LOT": "126.9780", "LAT": "37.5665", "HMPG_ADDR": "https://example.org/synthetic/1", "RGSTDATE": "2026-09-10"},
+      {"TITLE": "가상 종료 행사", "STRTDATE": "2026-09-01", "END_DATE": "2026-09-05", "LOT": "126.9780", "LAT": "37.5665"},
+      {"TITLE": "가상 좌표 오류", "STRTDATE": "2026-10-15", "END_DATE": "2026-11-01", "LOT": "37.5665", "LAT": "126.9780"},
+      {"TITLE": "가상 일정 오류", "STRTDATE": "2026-12-02", "END_DATE": "2026-12-01", "LOT": "126.9780", "LAT": "37.5665"}
+    ]
+  }
+}

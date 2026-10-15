@@ -1,0 +1,62 @@
+{
+  "expected_sample": 16110,
+  "observed_sample": 16110,
+  "column_count": 408,
+  "unique_ids": 16110,
+  "duplicate_ids": 0,
+  "valid_weights": true,
+  "weight_sum": 15876198.0,
+  "weight_kish_effective_n": 10836.9,
+  "eligible_n": 12339,
+  "eligible_kish_effective_n": 8501.3,
+  "monthly_quarter_consistency": true,
+  "quarter_weight_consistency": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "invalid_region_codes": [],
+  "invalid_activity_codes": [],
+  "region_question_missing_n": 0,
+  "multi_region_n": 4892,
+  "multiplicity_warning": "Q9_2 visits are multiresponse; 17 rates need not sum to 100%.",
+  "month_warning": "D_MON denotes survey month, not exact date of a specific visit or event.",
+  "geo_warning": "Q9_2 visited region and Q8 activity occur on the same respondent, not the same recorded location.",
+  "baseline_crosscheck": {
+    "women_pct": 61.94,
+    "age_20s_pct": 31.64,
+    "age_30s_pct": 24.98,
+    "revisit_pct": 56.57,
+    "FIT_pct": 80.14,
+    "Food_pct": 81.57,
+    "Shopping_pct": 80.31,
+    "BeautyService_pct": 12.16,
+    "KpopPlace_pct": 13.51
+  },
+  "regional_breadth_eligible": {
+    "zero_region_pct": 0.0,
+    "exactly_one_pct": 73.78,
+    "two_plus_pct": 26.22,
+    "three_plus_pct": 7.06,
+    "average_regions": 1.367
+  },
+  "example_activity_region_overlap": {
+    "서울": {
+      "n_visited": 10166,
+      "Kpop_also_pct": 18.77,
+      "NOT_interpretable_as": "이 지역에서 K-pop 활동을 했다는 비율로 해석할 수 없음"
+    },
+    "부산": {
+      "n_visited": 2464,
+      "Kpop_also_pct": 12.44,
+      "NOT_interpretable_as": "이 지역에서 K-pop 활동을 했다는 비율로 해석할 수 없음"
+    },
+    "제주": {
+      "n_visited": 1121,
+      "Kpop_also_pct": 4.35,
+      "NOT_interpretable_as": "이 지역에서 K-pop 활동을 했다는 비율로 해석할 수 없음"
+    }
+  },
+  "schema_signature_sha256": "04756f6ffa3f3d9c"
+}

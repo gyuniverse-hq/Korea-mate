@@ -1,0 +1,10 @@
+{
+  "NOTICE": "SYNTHETIC FIXTURE ONLY. Not a response from KTO TourAPI.",
+  "response": {
+    "header": {"resultCode": "0000", "resultMsg": "Synthetic fixture"},
+    "body": {"items": {"item": [
+      {"contentid": "SYNTHETIC-001", "title": "가상 지역축제", "eventstartdate": "20261020", "eventenddate": "20261025", "mapx": "129.0756", "mapy": "35.1796", "addr1": "가상 부산 장소", "modifiedtime": "20261010120000"},
+      {"contentid": "SYNTHETIC-002", "title": "가상 좌표 없는 행사", "eventstartdate": "20261019", "eventenddate": "20261021", "mapx": "", "mapy": "", "addr1": "가상 제주 장소"}
+    ]}}
+  }
+}

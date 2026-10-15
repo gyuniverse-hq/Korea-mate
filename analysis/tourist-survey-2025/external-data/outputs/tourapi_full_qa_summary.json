@@ -1,0 +1,73 @@
+{
+  "schema_version": "koreamate.eda5.tourapi.qa.v1",
+  "as_of_local_date": "2026-10-16",
+  "start_date_filter": "20260717",
+  "source": "KTO KorService2/searchFestival2",
+  "run_url": "https://github.com/gyuniverse-hq/Korea-mate/actions/runs/38807782822",
+  "pagination": {
+    "total_count": 521,
+    "pages_requested": 6,
+    "per_page_counts": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      21
+    ],
+    "pagination_complete": true,
+    "total_count_drifted": false
+  },
+  "records_evaluated": 521,
+  "distinct_content_ids": 521,
+  "duplicates": 0,
+  "date_status": {
+    "ended_before_as_of": 291,
+    "within_published_date_range": 106,
+    "not_started_by_as_of": 124
+  },
+  "candidate_count": 230,
+  "ending_within_7_days_candidate_count": 41,
+  "plausible_korean_coordinates": 521,
+  "field_coverage_percent": {
+    "contentid": 100,
+    "title": 100,
+    "addr1": 100,
+    "mapx": 100,
+    "mapy": 100,
+    "eventstartdate": 100,
+    "eventenddate": 100,
+    "modifiedtime": 100,
+    "firstimage": 99.8,
+    "areacode": 0,
+    "cat1": 0
+  },
+  "modified_lag_median_days": 32,
+  "modified_lag_p90_days": 108,
+  "modified_over_30_days_count": 270,
+  "regions_from_address": {
+    "서울": 109,
+    "경기": 77,
+    "강원": 46,
+    "경북": 44,
+    "부산": 43,
+    "전북": 30,
+    "경남": 29,
+    "충남": 27,
+    "인천": 16,
+    "제주": 16,
+    "대전": 12,
+    "충북": 11,
+    "대구": 10,
+    "울산": 8,
+    "세종": 3,
+    "주소지역미분류": 40
+  },
+  "additional_region_fields_present": [
+    "lDongRegnCd",
+    "lDongSignguCd"
+  ],
+  "true_operating_status_verified": false,
+  "booking_verified": false,
+  "note": "GitHub Actions artifact contains the complete aggregated original output. This repository JSON is a compact curated copy."
+}

@@ -1,20 +1,15 @@
 # Korea Mate 문서 인덱스
 
-GitHub에는 합의된 기획 및 검증 가능한 연구·개발 산출물을 기록합니다. 초안과 토론은 PR에서 검토합니다.
+**최종 프로젝트 주제는 미확정**이며, 이 저장소는 Korea Mate 후보 검증 자료를 관리합니다. 연구 결과·기능 확정은 구분합니다.
 
-| 위치 | 관리 대상 | 상태 |
+| 영역 | 문서 | 상태 |
 |---|---|---|
-| `docs/project/` | 서비스 소개, 요구사항, 범위 | 준비 중 |
-| `docs/research/` | 데이터 출처, EDA 분석 보고서, 가설 검증 | PR 등록 예정 |
-| `docs/product/` | 화면/추천/실행 전환 기능 설계 | 준비 중 |
-| `docs/architecture/` | 시스템 및 데이터 아키텍처 | 준비 중 |
-| `docs/decisions/` | ADR(아키텍처 의사결정 기록) | PR 등록 예정 |
-| `analysis/` | 재현 코드 및 식별정보 없는 집계 결과 | PR 등록 예정 |
+| 관광객 EDA 1~5차 | [2025 외래관광객조사 EDA](research/tourist-survey-2025/README.md) | 연구 브랜치 Draft PR |
+| 통합 QA·WHEN & WHERE | [EDA v4](research/tourist-survey-2025/eda-v4-qa-when-where.md) | 원자료 재현·지역/월별 분석 |
+| 외부 관광·행사 데이터 | [EDA v5](research/tourist-survey-2025/eda-v5-external-data.md) | 공식 명세·단위 테스트 완료, 실데이터 응답 미검증 |
+| 공통 방법·제약 | [방법론](research/tourist-survey-2025/methodology.md) | 가중치, 분모, 해석 한계 |
+| 개인화 추천 | [ADR-001](decisions/ADR-001-cold-start-recommendation.md) | 제안, 기능 확정 아님 |
+| 기획·제품·아키텍처 | 각 영역 작성 예정 | 주제 확정 후 |
+| 팀 협업 | [Git 협업 PR #2](https://github.com/gyuniverse-hq/Korea-mate/pull/2) | 별도 Draft |
 
-## 문서 작성 원칙
-
-- 확인된 사실, 통계적 관찰, 제품 가설, 확정 결정을 분리합니다.
-- 데이터 분석은 표본 크기, 모집단, 분모, 가중치, 변수, 평가 시점을 밝힙니다.
-- 최초 아이디어를 데이터로 뒷받침하려고 결과를 선택적으로 제시하지 않습니다.
-- 주요 기능 도입은 관련 연구 보고서 및 ADR과 연결합니다.
-- 응답자 수준 원자료나 비밀정보를 저장소에 올리지 않습니다.
+분석은 **출처 → 집계 정의 → 관측 → 한계 → 가설 → 후속 검증**을 따릅니다. 원자료·응답자 행·비밀키를 저장소에 올리지 않으며, 모든 PR은 우선 `develop`을 대상으로 작성합니다.

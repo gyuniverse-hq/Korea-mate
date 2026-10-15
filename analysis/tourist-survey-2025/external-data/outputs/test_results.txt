@@ -1,0 +1,16 @@
+test_expired_not_candidate (test_event_contract.TestEventContract.test_expired_not_candidate) ... ok
+test_inverted_dates_flagged (test_event_contract.TestEventContract.test_inverted_dates_flagged) ... ok
+test_no_data_and_unparseable_date (test_event_contract.TestEventContract.test_no_data_and_unparseable_date) ... ok
+test_no_fake_url_for_tourapi (test_event_contract.TestEventContract.test_no_fake_url_for_tourapi) ... ok
+test_no_key_skips_live (test_event_contract.TestEventContract.test_no_key_skips_live) ... ok
+test_quality_report (test_event_contract.TestEventContract.test_quality_report) ... ok
+test_requires_explicit_insecure_permission (test_event_contract.TestEventContract.test_requires_explicit_insecure_permission) ... ok
+test_seoul_valid_date_window_not_open_or_bookable (test_event_contract.TestEventContract.test_seoul_valid_date_window_not_open_or_bookable) ... ok
+test_swapped_coordinates_flagged (test_event_contract.TestEventContract.test_swapped_coordinates_flagged) ... ok
+test_tourapi_missing_coordinate (test_event_contract.TestEventContract.test_tourapi_missing_coordinate) ... ok
+test_tourapi_yymmdd (test_event_contract.TestEventContract.test_tourapi_yymmdd) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.002s
+
+OK

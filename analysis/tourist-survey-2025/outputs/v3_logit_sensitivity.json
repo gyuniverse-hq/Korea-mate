@@ -1,0 +1,97 @@
+{
+  "first_repeat": [
+    {
+      "activity": "식도락",
+      "logit_adjusted_diff_pp": -0.74,
+      "std_first_pct": 86.57,
+      "std_repeat_pct": 85.83,
+      "iterations": 91
+    },
+    {
+      "activity": "쇼핑",
+      "logit_adjusted_diff_pp": 0.91,
+      "std_first_pct": 86.01,
+      "std_repeat_pct": 86.92,
+      "iterations": 105
+    },
+    {
+      "activity": "자연경관",
+      "logit_adjusted_diff_pp": -15.22,
+      "std_first_pct": 66.35,
+      "std_repeat_pct": 51.13,
+      "iterations": 102
+    },
+    {
+      "activity": "고궁·역사",
+      "logit_adjusted_diff_pp": -13.32,
+      "std_first_pct": 45.66,
+      "std_repeat_pct": 32.34,
+      "iterations": 97
+    },
+    {
+      "activity": "전통문화체험",
+      "logit_adjusted_diff_pp": -8.48,
+      "std_first_pct": 21.02,
+      "std_repeat_pct": 12.54,
+      "iterations": 82
+    },
+    {
+      "activity": "박물관·전시",
+      "logit_adjusted_diff_pp": -8.64,
+      "std_first_pct": 27.25,
+      "std_repeat_pct": 18.61,
+      "iterations": 105
+    },
+    {
+      "activity": "K-pop·촬영지",
+      "logit_adjusted_diff_pp": 6.35,
+      "std_first_pct": 12.65,
+      "std_repeat_pct": 19.0,
+      "iterations": 87
+    },
+    {
+      "activity": "공연",
+      "logit_adjusted_diff_pp": 2.02,
+      "std_first_pct": 3.72,
+      "std_repeat_pct": 5.74,
+      "iterations": 104
+    },
+    {
+      "activity": "뷰티·미용서비스",
+      "logit_adjusted_diff_pp": 2.24,
+      "std_first_pct": 12.83,
+      "std_repeat_pct": 15.07,
+      "iterations": 107
+    }
+  ],
+  "activity_info_any_gap": [
+    {
+      "activity": "식도락",
+      "logit_adjusted_diff_pp": 17.59,
+      "std_done_pct": 46.04,
+      "std_notdone_pct": 63.63,
+      "iterations": 94
+    },
+    {
+      "activity": "쇼핑",
+      "logit_adjusted_diff_pp": 10.82,
+      "std_done_pct": 50.68,
+      "std_notdone_pct": 61.5,
+      "iterations": 86
+    },
+    {
+      "activity": "K-pop·촬영지",
+      "logit_adjusted_diff_pp": 9.07,
+      "std_done_pct": 55.05,
+      "std_notdone_pct": 64.12,
+      "iterations": 110
+    },
+    {
+      "activity": "뷰티·미용서비스",
+      "logit_adjusted_diff_pp": 11.83,
+      "std_done_pct": 57.5,
+      "std_notdone_pct": 69.33,
+      "iterations": 129
+    }
+  ]
+}
