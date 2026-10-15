@@ -1,0 +1,56 @@
+name: EDA TourAPI full festival audit
+
+# Fixed 2026-07-17 start-date matches the successful first-page baseline.
+# Runs on the research branch only; never pushes source records or secrets.
+on:
+  push:
+    branches:
+      - research/eda-2025-survey
+    paths:
+      - .github/workflows/eda-tourapi-full-census.yml
+      - analysis/tourist-survey-2025/external-data/collect_all_festivals.py
+      - analysis/tourist-survey-2025/external-data/test_collect_all_festivals.py
+
+permissions:
+  contents: read
+
+concurrency:
+  group: eda-tourapi-full-audit
+  cancel-in-progress: false
+
+jobs:
+  collect-and-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    defaults:
+      run:
+        working-directory: analysis/tourist-survey-2025/external-data
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Test pagination and quality checks without secrets
+        run: python3 -m unittest -v test_collect_all_festivals.py
+      - name: Collect all pages and save aggregate-only audit
+        id: collect
+        env:
+          TOURAPI_SERVICE_KEY: ${{ secrets.TOURAPI_SERVICE_KEY }}
+        run: |
+          python3 collect_all_festivals.py \
+            --as-of 2026-10-16 \
+            --start-date 20260717 \
+            --page-size 100 \
+            --max-pages 12 \
+            --out reports/tourapi_full_qa.json \
+            --summary reports/tourapi_full_qa.md
+          cat reports/tourapi_full_qa.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload aggregate report only
+        if: steps.collect.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: koreamate-tourapi-full-aggregates
+          path: |
+            analysis/tourist-survey-2025/external-data/reports/tourapi_full_qa.json
+            analysis/tourist-survey-2025/external-data/reports/tourapi_full_qa.md
+          if-no-files-found: error
+          retention-days: 14
