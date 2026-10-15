@@ -54,7 +54,7 @@ def official_regions(ldong_rows: list[dict]) -> dict[str, str]:
     """Use TourAPI ldongCode2, with a normalized source city/province name."""
     result: dict[str, str] = {}
     for row in ldong_rows:
-        code = str(row.get("lDongRegnCd", "")).strip()
+        code = str(row.get("code") or row.get("lDongRegnCd") or "").strip()
         value = row.get("lDongRegnNm") or row.get("name") or ""
         region = region_from_address(value)
         if code and region != "주소지역미분류" and region != "주소없음":
