@@ -1,0 +1,170 @@
+{
+  "activity_info_gaps": [
+    {
+      "activity": "식도락",
+      "want_n": 6934,
+      "gap_n": 571,
+      "done_n": 6363,
+      "none_gap_minus_completed_pp": -22.17,
+      "bootstrap95_approx_pp": [
+        -26.87,
+        -17.11
+      ]
+    },
+    {
+      "activity": "쇼핑",
+      "want_n": 6667,
+      "gap_n": 305,
+      "done_n": 6362,
+      "none_gap_minus_completed_pp": -15.39,
+      "bootstrap95_approx_pp": [
+        -22.02,
+        -8.41
+      ]
+    },
+    {
+      "activity": "K-pop·촬영지",
+      "want_n": 1831,
+      "gap_n": 562,
+      "done_n": 1269,
+      "none_gap_minus_completed_pp": -9.66,
+      "bootstrap95_approx_pp": [
+        -15.24,
+        -3.92
+      ]
+    },
+    {
+      "activity": "뷰티·미용서비스",
+      "want_n": 1453,
+      "gap_n": 485,
+      "done_n": 968,
+      "none_gap_minus_completed_pp": -15.4,
+      "bootstrap95_approx_pp": [
+        -21.35,
+        -9.74
+      ]
+    }
+  ],
+  "country_associations": [
+    {
+      "country": "중국",
+      "activity_a": "K-pop·촬영지",
+      "activity_b": "공연",
+      "n_country": 1849,
+      "n_a": 358,
+      "n_b": 50,
+      "n_both": 18,
+      "lift": 1.69
+    },
+    {
+      "country": "중국",
+      "activity_a": "전통문화",
+      "activity_b": "박물관·전시",
+      "n_country": 1849,
+      "n_a": 119,
+      "n_b": 231,
+      "n_both": 43,
+      "lift": 2.88
+    },
+    {
+      "country": "중국",
+      "activity_a": "뷰티·미용서비스",
+      "activity_b": "쇼핑",
+      "n_country": 1849,
+      "n_a": 184,
+      "n_b": 1559,
+      "n_both": 158,
+      "lift": 1.0
+    },
+    {
+      "country": "일본",
+      "activity_a": "K-pop·촬영지",
+      "activity_b": "공연",
+      "n_country": 1710,
+      "n_a": 246,
+      "n_b": 113,
+      "n_both": 78,
+      "lift": 4.75
+    },
+    {
+      "country": "일본",
+      "activity_a": "전통문화",
+      "activity_b": "박물관·전시",
+      "n_country": 1710,
+      "n_a": 117,
+      "n_b": 140,
+      "n_both": 39,
+      "lift": 4.24
+    },
+    {
+      "country": "일본",
+      "activity_a": "뷰티·미용서비스",
+      "activity_b": "쇼핑",
+      "n_country": 1710,
+      "n_a": 381,
+      "n_b": 1588,
+      "n_both": 369,
+      "lift": 1.04
+    },
+    {
+      "country": "대만",
+      "activity_a": "K-pop·촬영지",
+      "activity_b": "공연",
+      "n_country": 1251,
+      "n_a": 187,
+      "n_b": 45,
+      "n_both": 17,
+      "lift": 2.48
+    },
+    {
+      "country": "대만",
+      "activity_a": "전통문화",
+      "activity_b": "박물관·전시",
+      "n_country": 1251,
+      "n_a": 253,
+      "n_b": 364,
+      "n_both": 135,
+      "lift": 1.84
+    },
+    {
+      "country": "대만",
+      "activity_a": "뷰티·미용서비스",
+      "activity_b": "쇼핑",
+      "n_country": 1251,
+      "n_a": 85,
+      "n_b": 1062,
+      "n_both": 67,
+      "lift": 0.93
+    },
+    {
+      "country": "미국",
+      "activity_a": "K-pop·촬영지",
+      "activity_b": "공연",
+      "n_country": 778,
+      "n_a": 97,
+      "n_b": 46,
+      "n_both": 19,
+      "lift": 3.6
+    },
+    {
+      "country": "미국",
+      "activity_a": "전통문화",
+      "activity_b": "박물관·전시",
+      "n_country": 778,
+      "n_a": 263,
+      "n_b": 346,
+      "n_both": 173,
+      "lift": 1.46
+    },
+    {
+      "country": "미국",
+      "activity_a": "뷰티·미용서비스",
+      "activity_b": "쇼핑",
+      "n_country": 778,
+      "n_a": 118,
+      "n_b": 599,
+      "n_both": 102,
+      "lift": 1.13
+    }
+  ]
+}
