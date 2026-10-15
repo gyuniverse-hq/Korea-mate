@@ -39,7 +39,7 @@ python analysis/tourist-survey-2025/scripts/koreamate_step9_10_audit.py \
   --out analysis/tourist-survey-2025/outputs
 ```
 
-시각화 생성기는 보고서 공유 폴더 기준으로 작성되었으므로, 저장소에서는 생성기 내부의 `ROOT/OUT/FIG` 경로를 실제 출력 폴더에 맞게 조정해야 합니다. 현재 GitHub에 있는 WebP 4장은 **검증된 생성 차트의 압축본**입니다.
+`python analysis/tourist-survey-2025/scripts/create_eda_charts.py`를 실행하면 `analysis/tourist-survey-2025/outputs/*.csv`로부터 `analysis/tourist-survey-2025/figures/*.png`가 생성됩니다. 저장소 구조와 같은 모의 경로에서도 **4개 그래프 생성 성공**을 확인했습니다. 문서 폴더에 등록된 WebP 4장은 PNG를 압축한 열람용 버전입니다.
 
 ## 재현 검증 상태 (2026-10-16)
 
