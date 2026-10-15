@@ -1,0 +1,39 @@
+name: PR branch routing
+
+# NOTE: This check is advisory unless branch protection makes it required.
+# A tiny workflow without checkout; it still consumes GitHub Actions minutes.
+on:
+  pull_request:
+    types: [opened, reopened, edited, synchronize, ready_for_review]
+    branches: [main, develop]
+
+permissions:
+  contents: read
+
+jobs:
+  pr-branch-route:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify PR target and source
+        shell: bash
+        env:
+          BASE_BRANCH: ${{ github.event.pull_request.base.ref }}
+          HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          TARGET_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          if [[ "$BASE_BRANCH" == "main" ]]; then
+            if [[ "$HEAD_BRANCH" != "develop" || "$HEAD_REPO" != "$TARGET_REPO" ]]; then
+              echo "::error::main must receive PRs from this repository's develop branch only."
+              exit 1
+            fi
+          elif [[ "$BASE_BRANCH" == "develop" ]]; then
+            if [[ "$HEAD_BRANCH" == "main" || "$HEAD_BRANCH" == "develop" ]]; then
+              echo "::error::develop must receive PRs from a short-lived work branch, not main/develop."
+              exit 1
+            fi
+          fi
+
+          echo "PR routing passed: ${HEAD_BRANCH} -> ${BASE_BRANCH}"
