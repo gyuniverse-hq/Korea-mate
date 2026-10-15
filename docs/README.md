@@ -4,8 +4,9 @@
 
 | 영역 | 문서 | 상태 |
 |---|---|---|
-| 관광객 EDA 1~4차 | [2025 외래관광객조사 EDA](research/tourist-survey-2025/README.md) | 연구 브랜치 Draft PR |
+| 관광객 EDA 1~5차 | [2025 외래관광객조사 EDA](research/tourist-survey-2025/README.md) | 연구 브랜치 Draft PR |
 | 통합 QA·WHEN & WHERE | [EDA v4](research/tourist-survey-2025/eda-v4-qa-when-where.md) | 원자료 재현·지역/월별 분석 |
+| 외부 관광·행사 데이터 | [EDA v5](research/tourist-survey-2025/eda-v5-external-data.md) | 공식 명세·단위 테스트 완료, 실데이터 응답 미검증 |
 | 공통 방법·제약 | [방법론](research/tourist-survey-2025/methodology.md) | 가중치, 분모, 해석 한계 |
 | 개인화 추천 | [ADR-001](decisions/ADR-001-cold-start-recommendation.md) | 제안, 기능 확정 아님 |
 | 기획·제품·아키텍처 | 각 영역 작성 예정 | 주제 확정 후 |
