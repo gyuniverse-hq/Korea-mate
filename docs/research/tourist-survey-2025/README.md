@@ -14,6 +14,7 @@
 | EDA 3차 | [eda-v3.md](eda-v3.md) | 방문경험별 통제분석, 정보 부족 유형·만족도 |
 | **EDA 4차** | **[eda-v4-qa-when-where.md](eda-v4-qa-when-where.md)** | **기존 지표 재현 검사, 월별·지역별·국적별 방문 차이** |
 | **EDA 5차** | **[eda-v5-external-data.md](eda-v5-external-data.md)** | **TourAPI·서울시 문화행사 데이터 명세, API 접근 현황, 행사 정보 품질검증 코드(합성 테스트)** |
+| **EDA 5차 실측** | **[TourAPI 전체 521건 품질검증](eda-v5-tourapi-full-audit.md)** | **6페이지 전량 수집, 중복·기간·좌표·갱신일 검증** |
 | 공통 기준 | [methodology.md](methodology.md) | 분모·가중치·한계와 데이터 재현성 |
 | 다음 단계 | [next-steps.md](next-steps.md) | 분석 확장·직접 사용자 과제·팀 의사결정 |
 
