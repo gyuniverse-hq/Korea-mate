@@ -1,0 +1,26 @@
+{
+  "fixture_type": "SYNTHETIC_TEST_ONLY",
+  "metrics": {
+    "provider": "seoul_cultural",
+    "scope": "schema/quality validation, NOT actual operating or booking availability",
+    "row_count": 4,
+    "distinct_source_ids": 4,
+    "duplicate_source_ids": 0,
+    "date_status_counts": {
+      "within_date_window_only": 2,
+      "expired": 1,
+      "invalid": 1
+    },
+    "coordinate_valid_count": 3,
+    "detail_url_valid_count": 1,
+    "location_candidate_count": 1,
+    "ending_soon_candidate_count": 1,
+    "quality_flags": {
+      "detail_url_unavailable": 3,
+      "swapped_coordinates_suspected": 1,
+      "end_before_start": 1
+    },
+    "operating_now_confirmed_count": null,
+    "bookable_confirmed_count": null
+  }
+}
