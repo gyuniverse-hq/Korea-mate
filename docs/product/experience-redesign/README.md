@@ -1,6 +1,19 @@
 # KoreaMate · UX/서비스 경험 재설계
 > 개인 기획·디자인 초안 · **팀 합의 전** · 2026-10-17
 
+## 외부 디자인 평가 패키지 v1.0 (최신)
+
+> **현재 디자인 평가의 시작점:** [UI/UX 디자인 평가 패키지 README](./evaluation/README.md)  
+> **최신 메인 화면:** v0.9 고충실도 참조 시안 + 브라우저 HTML 비교. 팀 확정 전이며 과거 v0.7/v0.8은 디자인 탐색 기록.
+
+- [브랜드·화면 평가 시작하기](./evaluation/README.md)
+- [메인 화면설계 명세 HOME-001](./evaluation/02-home-screen-spec.md)
+- [시각적 차이와 알려진 문제](./evaluation/03-visual-audit.md)
+- [평가 기준표](./evaluation/04-evaluation-rubric.md)
+- [외부 AI용 복사용 평가 요청문](./evaluation/05-reviewer-request.md)
+- [v0.9 디자인 시안과 실제 HTML 이미지 비교](./assets/v0.9/target-vs-html-v0.9.webp)
+- [v0.9 단일 HTML](./previews/d-main-hifi-v0.9.html)
+
 ## 목표
 KoreaMate의 원래 핵심(See it → Live it / Scan Anything / Korea Pulse / For You / Korea 101 / Help Me Now / Plan B)을 지키면서, 팀원의 Kravel·K-Season·K-Beauty·K-Class·GG Korea 등 아이디어가 **고유한 경험을 가진 전문 서비스**로 살아 있도록 설계한다. '많은 카드가 한 화면에 있다'와 '여러 기능이 협력해 결과가 나아진다'는 다르다.
 
@@ -12,8 +25,8 @@ KoreaMate의 원래 핵심(See it → Live it / Scan Anything / Korea Pulse / Fo
 | 03 대표 경험 | 각 기능의 대표 조작·결과·독립성 | 초안 |
 | 04 정보 구조(IA) | 메인과 전문 화면, 현장 도움, 일정 흐름 | 초안 |
 | 05 디자인 방향·시스템 | A/B/C 화면 구조와 D 통합안 + 4브랜드 시각 탐색 | **초안 검토 중** |
-| 06 고충실도 시안 | 메인/Scan/Kravel/K-Season/Beauty | 방향 검토 후 진행 |
-| 07 체험형 HTML | 시안 준수 인터랙티브 프로토타입 | 대기 |
+| 06 고충실도 시안 | 메인/Scan/Kravel/K-Season/Beauty | **메인 v0.9 제작 · 다른 전문 화면 미착수** |
+| 07 체험형 HTML | 시안 준수 인터랙티브 프로토타입 | **메인 v0.9 시연 · 다른 전문 화면 미착수** |
 | 08 사용자·기술 검증 | 증분 가치/정보 근거/오류 복구 검증 | 대기 |
 
 02~04는 팀 확정본이 아니라 **검토 가능한 기준 초안**이다.
