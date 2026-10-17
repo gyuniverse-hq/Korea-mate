@@ -11,8 +11,8 @@ KoreaMate의 원래 핵심(See it → Live it / Scan Anything / Korea Pulse / Fo
 | 02 서비스 경험 구조 | 공통 경험/전문 경험/별도 사용자군 구분 | 초안 |
 | 03 대표 경험 | 각 기능의 대표 조작·결과·독립성 | 초안 |
 | 04 정보 구조(IA) | 메인과 전문 화면, 현장 도움, 일정 흐름 | 초안 |
-| 05 디자인 방향·시스템 | 브랜드 일관성과 기능별 개성 | 다음 단계 |
-| 06 고충실도 시안 | 메인/Scan/Kravel/K-Season/Beauty | 대기 |
+| 05 디자인 방향·시스템 | 브랜드 일관성과 기능별 개성, A/B/C 메인 비교 | **비교 시안 제작·검토 중** |
+| 06 고충실도 시안 | 메인/Scan/Kravel/K-Season/Beauty | 방향 검토 후 진행 |
 | 07 체험형 HTML | 시안 준수 인터랙티브 프로토타입 | 대기 |
 | 08 사용자·기술 검증 | 증분 가치/정보 근거/오류 복구 검증 | 대기 |
 
@@ -21,6 +21,8 @@ KoreaMate의 원래 핵심(See it → Live it / Scan Anything / Korea Pulse / Fo
 ## 문서
 - [v0.5: 서비스 경험·대표 체험·IA](./service-experience-v0.5.md)
 - [편집 가능한 경험 구조도](./experience-map.md)
+- [v0.7: 메인 세 가지 방향 비교 및 평가](./home-options-v0.7.md)
+- [A/B/C 체험형 비교 HTML](./previews/main-options-v0.7.html)
 - [이전 융합 시나리오 평가 v0.3](./archive/fusion-scenarios-v0.3.md)
 - [이전 인터랙티브 데모 검토 v0.4](./archive/prototype-review-v0.4.md)
 - [개인 원안 v0.2 (Notion)](https://app.notion.com/p/3fae94b44d078180a459c5ed57b97aed)
