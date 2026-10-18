@@ -1,0 +1,106 @@
+{
+  "version": "v5",
+  "created_at_utc": "2026-10-18T04:00:20Z",
+  "repository": "gyuniverse-hq/Korea-mate",
+  "branch": "research/foreigner-friction-discovery",
+  "verified_commit": "12983641987328c46da89028e0b57dbebb1ec740",
+  "remote_readback": "All 16 research files fetched at verified commit and matched normalized UTF-8 text exactly; CSV line endings may differ",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 1862,
+      "sha256": "c00af392840de978e4041f4552cbab85204002f7822884f749a1b9bb58834240",
+      "normalized_utf8_sha256": "c00af392840de978e4041f4552cbab85204002f7822884f749a1b9bb58834240"
+    },
+    {
+      "file": "cases_cumulative_v5.csv",
+      "bytes": 558278,
+      "sha256": "248852086a14f3a7d1e8b16425f8db531eabec98d6ffd3114b7cdb4219f270d2",
+      "normalized_utf8_sha256": "eb4c528e752e72fa5e11d97148a31f7ff809e00f76a69b4014d8bce3c939acb8"
+    },
+    {
+      "file": "codebook_v5.md",
+      "bytes": 4120,
+      "sha256": "807a2e4603448cfcc92127e25687b7e8738b0f92c259040f49365db6ddc9a1fb",
+      "normalized_utf8_sha256": "807a2e4603448cfcc92127e25687b7e8738b0f92c259040f49365db6ddc9a1fb"
+    },
+    {
+      "file": "coding_change_log_v5.csv",
+      "bytes": 5436,
+      "sha256": "c2ade7b621e9aa49635a9de2a5824739755d6e3df9ca097ec7f07b5650d2d7f6",
+      "normalized_utf8_sha256": "fd5cbc5a6580cea5493ee1246f56aeacbf9a8535a6ab54cbcb6355146ea5c37e"
+    },
+    {
+      "file": "eda_distributions_v5.csv",
+      "bytes": 25530,
+      "sha256": "a7ebfb19e715f3dfa7ed2b4820718b35512da75c88fd85f9991e61b60c23f04b",
+      "normalized_utf8_sha256": "be6a3c843cb5a46c4b83f6cff165c842826c2be0c3f3697c06c7d7e206c7276e"
+    },
+    {
+      "file": "external_dataset_register.csv",
+      "bytes": 13560,
+      "sha256": "a4b4699e4c44eff57d374fd465e8da785ad6010a38df19498a5b70b8c216162c",
+      "normalized_utf8_sha256": "544593df917323437e4d4f83c0c889a9bc795828a5e4e0087b4b871ceb1c6c52"
+    },
+    {
+      "file": "legacy_source_review_v5.json",
+      "bytes": 58034,
+      "sha256": "d0f3fe697b224c919682eaebeb8b191e46f37c197388099fdfc147d87d9cb703",
+      "normalized_utf8_sha256": "d0f3fe697b224c919682eaebeb8b191e46f37c197388099fdfc147d87d9cb703"
+    },
+    {
+      "file": "new_case_second_review_log.csv",
+      "bytes": 9237,
+      "sha256": "e8c41286826d4b980d589ab09a80b30c2a48285c14cddbdadbab10b4f5294844",
+      "normalized_utf8_sha256": "2d9f7b5f97846c0148fcf0767872e8c286e8ef32a55c06a8bcc1ac9aba2c862c"
+    },
+    {
+      "file": "new_cases_batch5.csv",
+      "bytes": 222414,
+      "sha256": "982aba56225c679e3670de6b187453e76917823a624c5422f919ab75cdc768a7",
+      "normalized_utf8_sha256": "1241854fda7efcc549687aac0323a7a73a0d258a733365a7e760d53d52dc0329"
+    },
+    {
+      "file": "official_crosswalk_v5.md",
+      "bytes": 19532,
+      "sha256": "65e316d78143a9e32f7a80ce8426e67489096e62baa76a91db3f1d627936495c",
+      "normalized_utf8_sha256": "65e316d78143a9e32f7a80ce8426e67489096e62baa76a91db3f1d627936495c"
+    },
+    {
+      "file": "official_numeric_sourcelog.csv",
+      "bytes": 3182,
+      "sha256": "d6734cfa2dfc652d359999f21ea430153ce01b9fb8685390b1e2b699b7e57eff",
+      "normalized_utf8_sha256": "72f44e20a39bcd4055b90d30de5e0ec33f0f4b52e6e20a863472f61a2d18a1f7"
+    },
+    {
+      "file": "qa_summary_v5.json",
+      "bytes": 3402,
+      "sha256": "21cd2e332b61f706c442fc98d3a3b472a70eaa7a5eb86f846f6df7948a328699",
+      "normalized_utf8_sha256": "21cd2e332b61f706c442fc98d3a3b472a70eaa7a5eb86f846f6df7948a328699"
+    },
+    {
+      "file": "quality_report_v5.md",
+      "bytes": 5655,
+      "sha256": "e0c5ccd48c4b82f752368d69ca2c0eabf7b183f4420a040d6790ea58de839e04",
+      "normalized_utf8_sha256": "e0c5ccd48c4b82f752368d69ca2c0eabf7b183f4420a040d6790ea58de839e04"
+    },
+    {
+      "file": "research_findings_v5.md",
+      "bytes": 9179,
+      "sha256": "5c34f0ce1931a9bcc2ca1a7223b3e8dcd25295ec9e46c34e48b030065c6e8d7e",
+      "normalized_utf8_sha256": "5c34f0ce1931a9bcc2ca1a7223b3e8dcd25295ec9e46c34e48b030065c6e8d7e"
+    },
+    {
+      "file": "source_register_v5.csv",
+      "bytes": 77496,
+      "sha256": "292da3220179dc65d3d24c2b6edcf3cf210510daf343147a9773a90302089ab6",
+      "normalized_utf8_sha256": "2406d7802f1b7b8d8b51d8f51cb16a80b59999d5adf4474b9fc3e02708ed7ead"
+    },
+    {
+      "file": "video_access_log.csv",
+      "bytes": 6663,
+      "sha256": "da2af0b94adcbfd3bf368bb711b6352a3ba5020a377b9c46c69c98b560cbfd56",
+      "normalized_utf8_sha256": "07adba9000d9ea921c4001c401d40db81384f5889aba4fc1da5fb775e89b1497"
+    }
+  ]
+}
