@@ -1,0 +1,1373 @@
+{
+  "metadata": {
+    "reviewed_at_utc": "2026-10-18",
+    "method": "Second-reviewer source audit, not blinded independent coding. Baseline labels were read first; risk-stratified purposive sample, supplemented by cases on recovered sources. No unbiased agreement/kappa estimate.",
+    "baseline_cases": 229,
+    "attempted_cases": 61,
+    "content_reviewed_cases": 46,
+    "pending_cases": 15,
+    "content_reviewed_fraction": 0.2009,
+    "legacy_pending_attempted": 14,
+    "legacy_pending_text_recovered": 5,
+    "legacy_pending_still_unavailable": 9,
+    "access_counts": {
+      "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS": 39,
+      "UNAVAILABLE": 15,
+      "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS": 7
+    },
+    "limitations": [
+      "Original-page access means web tool returned body/selected comments from original URL, potentially cached; not live UI/full-comment enumeration.",
+      "Index-only recovery separately labelled.",
+      "Review verifies source claim and coding fidelity, never independent incident truth or current provider policy.",
+      "Dates on Reddit mostly relative and exact calendar dates not independently verified.",
+      "Sample is clustered by source and selected for audit risk; no population error-rate inference.",
+      "Case count does not equal unique individuals.",
+      "Several suggested changes concern scope granularity rather than binary correct/incorrect labels."
+    ],
+    "reviewed_language_counts": {
+      "en": 20,
+      "zh-Hant": 16,
+      "ja": 6,
+      "th": 4
+    },
+    "attempted_language_counts": {
+      "en": 31,
+      "zh-Hant": 16,
+      "ja": 7,
+      "th": 7
+    },
+    "material_code_change_cases": [
+      "KM-FR-012",
+      "KM-FR-031",
+      "KM-FR-036",
+      "KM-FR-115",
+      "KM-FR-153",
+      "KM-FR-160",
+      "KM-FR-226",
+      "KM-FR-228",
+      "KM-FR-229"
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "KM-FR-001",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1w6zde8/making_reservations_at_popup_event/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 21–26",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Direct failed/unfinished final verification step; eventual reservation UNKNOWN is appropriate. No proof of live policy.",
+      "proposed_coding": {
+        "user_goal": "성수 포켓몬 팝업 예약",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-003",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1s5n1ip/credit_card_use_for_climate_card_and_tmoney/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 20–22",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Purchase and reload of Climate Card described; physical Tmoney purchase differs from cash loading. Narrow success to the explicitly used card; no universal policy claim.",
+      "proposed_coding": {
+        "user_goal": "기후동행카드 및 티머니 구매·충전",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "TRANSPORT",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-010",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1tqmaa1/things_we_learnt_on_our_trip/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 21, 25–26",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Multiple taxi cancellations and inability to choose larger vehicle; broader trip proceeded, PARTIAL retained. Host prebooking is recommendation, not completed workaround.",
+      "proposed_coding": {
+        "user_goal": "일행 3명·짐 3개로 택시 이용",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "TRANSPORT",
+        "reported_outcome": "PARTIAL",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-011",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1tqmaa1/things_we_learnt_on_our_trip/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post line 24",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Queue-email friction is firsthand, Gmail contrast supplied. Retain PARTIAL for original Hotmail-notification goal; do not generalize domain ban as policy.",
+      "proposed_coding": {
+        "user_goal": "대기 명단 알림을 이메일로 수신",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "BOOKING",
+        "reported_outcome": "PARTIAL",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "secondary_barrier contains dedup annotation, not barrier code"
+      ]
+    },
+    {
+      "case_id": "KM-FR-012",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1l7udwm",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post paragraph Ordering; original page lines 21–22",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Direct past-trip account supports portion-ordering friction. Meals were enjoyed but matching portions failed repeatedly; SUCCEEDED does not fit the stated goal.",
+      "proposed_coding": {
+        "user_goal": "식당 메뉴를 양에 맞게 주문",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "ONSITE_USABILITY",
+        "reported_outcome": "PARTIAL",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "reported_outcome": {
+          "baseline": "SUCCEEDED",
+          "proposed": "PARTIAL"
+        },
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-017",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1jeww95",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID searches no matching result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-019",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1jz3m6n",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID searches no matching result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-021",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1wo1rf3/korailcom_app_not_working/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 21–25 and author follow-up 80–82",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Ticket access recovered via hotel Wi-Fi and screenshot saved. Planned counter visit and final boarding remain unconfirmed. IP cause is author inference.",
+      "proposed_coding": {
+        "user_goal": "예매한 열차표 다시 확인",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "OPERATING_INFO",
+        "reported_outcome": "WORKAROUND",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-022",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1vy1qir/getting_to_seoul_on_chuseok_sept_25th/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 23–27; same-author follow-up lines 175–180",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Planning return from Andong festival, not completed transport failure. Guide/bus fallback remained contingent; do not upgrade to WORKAROUND.",
+      "proposed_coding": {
+        "user_goal": "안동 축제 관람 후 서울 복귀",
+        "evidence_type": "QUESTION",
+        "primary_barrier": "TRANSPORT",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-026",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1wt4f9z/first_korea_trip_itinerary/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 23, 26–27",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Planned visit and dietary/menu/translation concerns. No failed restaurant visit or proven accommodation of dietary needs.",
+      "proposed_coding": {
+        "user_goal": "식재료 제한에 맞는 식사와 원활한 주문",
+        "evidence_type": "QUESTION",
+        "primary_barrier": "LANGUAGE",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-030",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1we3p06/insight_or_comment_on_my_current_itinerary_nov/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 23–41",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Solo first-visit itinerary risk question, not an observed transport/language failure.",
+      "proposed_coding": {
+        "user_goal": "가을 지방 여행·대중교통 이용",
+        "evidence_type": "QUESTION",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-031",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1756046653.A.8D5.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Indexed original body; author replies 08/25 08:14",
+      "source_date_observed": "2025-08-24 22:44:10 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author says account locks after booking/screen change, including hotel Wi-Fi retry. Narrow blocked stage to account access; reservation failure itself is not proved.",
+      "proposed_coding": {
+        "user_goal": "Naver 예약 후 계정 접근 유지",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "BLOCKED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "user_goal": {
+          "baseline": "Naver로 한국 식당 예약",
+          "proposed": "Naver 예약 후 계정 접근 유지"
+        },
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [],
+      "flags": [
+        "Original open returned 403; independent index text recovered",
+        "Do not infer that the reservation itself failed"
+      ]
+    },
+    {
+      "case_id": "KM-FR-035",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1717939225.A.772.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 12–13; author follow-ups 06/10 13:10–13:14 and 06/11 19:50",
+      "source_date_observed": "2024-06-09 21:20:23; follow-up 2024-06-10 13:10 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Later author follow-up describes finally giving Trip the fee, contradicting “only considered.” Ticket-image links could not be fetched. Keep UNKNOWN for final ticket/seat purchase; record reported switch to paid Trip route without claiming completed journey.",
+      "proposed_coding": {
+        "user_goal": "기차 객실·좌석 직접 선택하며 구매",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "BOOKING",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "HISTORICAL_IN_SCOPE"
+        }
+      },
+      "missing_locators": [],
+      "flags": [
+        "Summary correction required: preserve later reported switch to Trip",
+        "Linked transaction images unavailable",
+        "Payment and identity are secondary barriers under seat-selection booking goal"
+      ]
+    },
+    {
+      "case_id": "KM-FR-036",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1766325755.A.D44.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Indexed original author reply 12/22 06:39",
+      "source_date_observed": "2025-12-21 22:02:32; reply 2025-12-22 06:39 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author found hidden scroll control after asking about missing foreign-card brands. That UI step recovered; no final payment confirmation. WORKAROUND applies only to card-option discovery.",
+      "proposed_coding": {
+        "user_goal": "캡슐열차 결제 화면에서 해외카드 선택지 찾기",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "ONSITE_USABILITY",
+        "reported_outcome": "WORKAROUND",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "user_goal": {
+          "baseline": "부산 캡슐열차 외국카드 결제",
+          "proposed": "캡슐열차 결제 화면에서 해외카드 선택지 찾기"
+        },
+        "reported_outcome": {
+          "baseline": "PARTIAL",
+          "proposed": "WORKAROUND"
+        },
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "comment_permalink"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-042",
+      "source_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14310016489",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Question text at line 28",
+      "source_date_observed": "2025-02-03 01:04 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Hearsay about phone requirement motivates a reservation question. Answers recommend English-site/email and reseller routes; author success is absent.",
+      "proposed_coding": {
+        "user_goal": "부산 해변열차 캡슐 사전 예약",
+        "evidence_type": "QUESTION",
+        "primary_barrier": "BOOKING",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "LEGACY_PENDING",
+          "proposed": "IN_SCOPE"
+        }
+      },
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-047",
+      "source_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11323471496",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Question body line 27",
+      "source_date_observed": "2025-12-21 07:24 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Remote shopping and video-app identity access from Japan, no travel goal. Retain adjacent/out-of-tourist scope. Answers are user claims, not official telecom rules.",
+      "proposed_coding": {
+        "user_goal": "한국 온라인 쇼핑·콘텐츠 앱 접근",
+        "evidence_type": "QUESTION",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "OUT_OF_SCOPE_ADJACENT"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-052",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1r8wprz/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID searches no matching result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-053",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1ubtsa2/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID searches no matching result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-056",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1ugxonv/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID search no result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-057",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1m41g38/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID search no result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-059",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1ua6b67/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID search no result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-060",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1ttpf7w/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID search no result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-061",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1rly3l8/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original open internal error; exact-ID search no result",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-063",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1757937093.A.1B6.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post line 12",
+      "source_date_observed": "2025-09-15 19:51:31 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Post-trip author unsure about refund-machine step. UNKNOWN is correct; question does not establish refund failed.",
+      "proposed_coding": {
+        "user_goal": "출국 시 쇼핑 면세 환급 마무리",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "TAX_REFUND",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-064",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1757937093.A.1B6.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post line 12, accommodation section",
+      "source_date_observed": "2025-09-15 19:51:31 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author reports learning about hotel refund after return and contacting hotel. Eligibility and actual refund remain unknown.",
+      "proposed_coding": {
+        "user_goal": "숙박비 환급 적용 자격 확인",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "TAX_REFUND",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-065",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1757937093.A.1B6.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Comments lines 33–37, 09/22 00:19–00:21",
+      "source_date_observed": "2025-09-22 00:19–00:21 (comment; year from thread)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Different author reports city refund, airport validation, and deposit returned after about 20 days. Success is reported return, not independently checked bank statement.",
+      "proposed_coding": {
+        "user_goal": "시내 세금 환급 후 카드 보증금 돌려받기",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "TAX_REFUND",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "comment_permalink"
+      ],
+      "flags": [
+        "Keep thread post_date distinct; use separately recovered comment date for comment chronology"
+      ]
+    },
+    {
+      "case_id": "KM-FR-066",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1754897262.A.611.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post line 12",
+      "source_date_observed": "2025-08-11 15:27:40 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Explicit first Seoul visit planning; asks acceptance in small shops/stalls. QUESTION/UNKNOWN retained.",
+      "proposed_coding": {
+        "user_goal": "서울 상점·노점에서 카드와 대만 결제 앱 사용",
+        "evidence_type": "QUESTION",
+        "primary_barrier": "PAYMENT",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-067",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1754897262.A.611.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Comments lines 38–42, 08/12 05:27",
+      "source_date_observed": "2025-08-12 05:27 (comment; year from thread)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Habitual personal travel payment practice, not a single transaction. Reported successful use plausible; retain with non-discrete-event flag.",
+      "proposed_coding": {
+        "user_goal": "한국의 식당·교통 등 결제 수단 준비",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "PAYMENT",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "comment_permalink"
+      ],
+      "flags": [
+        "Habitual self-report; not one bounded incident or verified 95% prevalence",
+        "Keep thread post_date distinct; use separately recovered comment date for comment chronology"
+      ]
+    },
+    {
+      "case_id": "KM-FR-068",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1754897262.A.611.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Comments lines 97–105, 08/17 22:20–22:21",
+      "source_date_observed": "2025-08-17 22:20–22:21 (comment; year from thread)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author left without goods after staff insisted on card. Direct comment supports failed cash purchase; incident was previous Christmas, not August posting date.",
+      "proposed_coding": {
+        "user_goal": "한국 편의점에서 현금으로 물품 구매",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "PAYMENT",
+        "reported_outcome": "BLOCKED",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {
+        "research_scope_status": {
+          "baseline": "IN_SCOPE",
+          "proposed": "HISTORICAL_IN_SCOPE"
+        }
+      },
+      "missing_locators": [
+        "comment_permalink"
+      ],
+      "flags": [
+        "Incident time explicitly Christmas of previous year: 2024",
+        "Keep thread post_date distinct; use separately recovered comment date for comment chronology"
+      ]
+    },
+    {
+      "case_id": "KM-FR-088",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1to0hqr/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original cache miss; exact-ID search yielded no matching source",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-113",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1788754903.A.0A6.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Indexed original fourth-day paragraph",
+      "source_date_observed": "2026-09-07 12:21:41 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Restricted desired-slot choice; author bought an evening slot and joined queue early. PARTIAL fits desired-time goal, not overall ride failure.",
+      "proposed_coding": {
+        "user_goal": "부산 해변열차 캡슐 좌석 원하는 시간 예약",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "BOOKING",
+        "reported_outcome": "PARTIAL",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-114",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1788754903.A.0A6.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Indexed original fourth/fifth-day paragraphs",
+      "source_date_observed": "2026-09-07 12:21:41 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author reports observation decks closed and drone show cancelled. Keep blocked visit, without independently verifying weather/operator decisions.",
+      "proposed_coding": {
+        "user_goal": "부산 해변 전망대·드론 행사 관람",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PLAN_RECOVERY",
+        "reported_outcome": "BLOCKED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-115",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1788754903.A.0A6.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Indexed original final tax-refund paragraph",
+      "source_date_observed": "2026-09-07 12:21:41 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Queue experience is explicit; money receipt or completed refund is not. Change broad refund success to UNKNOWN.",
+      "proposed_coding": {
+        "user_goal": "부산 공항 출국 택스리펀드",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "TAX_REFUND",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "reported_outcome": {
+          "baseline": "SUCCEEDED",
+          "proposed": "UNKNOWN"
+        }
+      },
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-116",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1788754903.A.0A6.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Indexed original fifth-day haircut paragraph",
+      "source_date_observed": "2026-09-07 12:21:41 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Walk-in haircut completed using translation software; success reported.",
+      "proposed_coding": {
+        "user_goal": "현지 미용실에서 머리 자르기",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "LANGUAGE",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-117",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1757945404.A.88F.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post lines 11–12",
+      "source_date_observed": "2025-09-15 22:10:01 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author exchanged currency late, funded card and travelled to Unseo. Success reported; exchange-rate advice not official or current.",
+      "proposed_coding": {
+        "user_goal": "늦은 밤 공항에서 원화 환전과 교통카드 충전",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-118",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1757945404.A.88F.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post line 12",
+      "source_date_observed": "2025-09-15 22:10:01 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Phone-model compatibility, not necessarily kiosk model, limits WOW-to-Tmoney balance transfer. Author separately funded transit and used card. PARTIAL is defensible for combined wallet/transit task; narrow summary to phone-model limitation.",
+      "proposed_coding": {
+        "user_goal": "WOWPASS 잔액을 교통카드로 쓰기",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PAYMENT",
+        "reported_outcome": "PARTIAL",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": [
+        "Translate 手機機型 as handset model, not kiosk model"
+      ]
+    },
+    {
+      "case_id": "KM-FR-124",
+      "source_url": "https://www.ptt.cc/bbs/Korea_Travel/M.1695957917.A.6F7.html",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Question body line 13",
+      "source_date_observed": "2023-09-29 11:25:15 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Anticipatory question based on friend report, not author’s refused queue registration. Historical 2023 evidence.",
+      "proposed_coding": {
+        "user_goal": "한국 식당에서 현장 대기 등록",
+        "evidence_type": "QUESTION",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-128",
+      "source_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12327406682",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original HTTP 500; exact-ID search no matching original",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-129",
+      "source_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13316424698",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Indexed original best answer dated 2025/6/18 9:09",
+      "source_date_observed": "2025-06-18 09:09 (answer)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Answerer could not make intended same-day trip during strike, then describes later advance purchase and trip. Retain BLOCKED only for original day; whole journey later recovered.",
+      "proposed_coding": {
+        "user_goal": "서울에서 부산으로 KTX 당일 이동",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "TRANSPORT",
+        "reported_outcome": "BLOCKED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": [
+        "Unknown incident date; not equal to answer date",
+        "Later trip completed, so goal must retain same-day qualifier"
+      ]
+    },
+    {
+      "case_id": "KM-FR-135",
+      "source_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11302106301",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Question line 28; same-author reply line 73",
+      "source_date_observed": "2024-08-05 17:30; reply 20:34 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Actual account attempt failed with Japanese number. Reply says mystery solved after global-app advice, but not that registration succeeded. Travel intention is not explicitly stated in this retrieved question.",
+      "proposed_coding": {
+        "user_goal": "CatchTable 앱에 일본 번호로 가입",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "BLOCKED",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "comment_permalink"
+      ],
+      "flags": [
+        "Tourist/planning status not explicit; retain historical adjacent-service evidence and flag population uncertainty"
+      ]
+    },
+    {
+      "case_id": "KM-FR-153",
+      "source_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14325836689",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Question body line 27",
+      "source_date_observed": "2026-03-01 13:46 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Concrete attempted Trip booking blocked by unavailable passport number. FIRSTHAND rather than merely QUESTION; remain BLOCKED. Responders and AI answer do not prove provider policy.",
+      "proposed_coding": {
+        "user_goal": "여권 발급 전 항공권·호텔 패키지 예약",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "BLOCKED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "evidence_type": {
+          "baseline": "QUESTION",
+          "proposed": "FIRSTHAND"
+        }
+      },
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-154",
+      "source_url": "https://pantip.com/topic/42330614",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post obstacles two/three; lines 119–142",
+      "source_date_observed": "2023-11-08 20:48:03 (Thai Buddhist year 2566 display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "2023 author report: airline online check-in blocked, urgent passport obtained. WORKAROUND concerns document replacement; not proof of Korean legal six-month rule.",
+      "proposed_coding": {
+        "user_goal": "방한 직전에 여권 유효기간 문제 해결",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "WORKAROUND",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": [
+        "Historical incident 2023-10/11"
+      ]
+    },
+    {
+      "case_id": "KM-FR-155",
+      "source_url": "https://pantip.com/topic/42330614",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post obstacle four; lines 143–160",
+      "source_date_observed": "2023-11-08 20:48:03 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author reports new K-ETA approved at noon Nov 1 before departure. Retain reported SUCCEEDED, no official verification.",
+      "proposed_coding": {
+        "user_goal": "여권 교체 후 K-ETA 재신청",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-156",
+      "source_url": "https://pantip.com/topic/42330614",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post obstacle five; lines 163–182",
+      "source_date_observed": "2023-11-08 20:48:03 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Identity verification failed before flight; old China-trip SIM topped up as interim solution, original product activated later. Connectivity goal supports WORKAROUND.",
+      "proposed_coding": {
+        "user_goal": "한국 도착 직전 휴대전화 데이터 준비",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "CONNECTIVITY",
+        "reported_outcome": "WORKAROUND",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-157",
+      "source_url": "https://pantip.com/topic/42330614",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post closing entry section; lines 183–188",
+      "source_date_observed": "2023-11-08 20:48:03 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Author reports passing immigration after three questions. Retain reported success; no documentary proof of admission.",
+      "proposed_coding": {
+        "user_goal": "인천공항에서 정상 입국 절차 완료",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "HISTORICAL_IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-158",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1q4rgo0/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post numbered items 1–2",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Shelter and replacement boots allowed continued movement; warmth remained imperfect. WORKAROUND is task-level mobility, not resolved cold.",
+      "proposed_coding": {
+        "user_goal": "겨울 부산 관광 중 야외 이동",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "WORKAROUND",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "Exact trip year not established from retrieved text alone"
+      ]
+    },
+    {
+      "case_id": "KM-FR-159",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1q4rgo0/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post item 8",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Account absent; failed booking is direct. Do not infer that foreigner identity verification was attempted or rejected.",
+      "proposed_coding": {
+        "user_goal": "롯데 크리스마스마켓 입장권 예약",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "BLOCKED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-160",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1q4rgo0/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post item 8",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Extra walking and disappointment in rerouting are described, but no alternative navigation method was adopted. “I missed Google” is not evidence of switching to Google.",
+      "proposed_coding": {
+        "user_goal": "경주 고분 관광 동선 찾기",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "NAV_SEARCH",
+        "reported_outcome": "PARTIAL",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "reported_outcome": {
+          "baseline": "WORKAROUND",
+          "proposed": "PARTIAL"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "WORKAROUND unsupported: no alternative navigation route/tool actually used"
+      ]
+    },
+    {
+      "case_id": "KM-FR-161",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1q4rgo0/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post item 11",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Delayed eSIM activated without support intervention; then good connectivity. Retain success, no support-caused workaround.",
+      "proposed_coding": {
+        "user_goal": "Trazy eSIM으로 한국 도착 직후 데이터 개통",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "CONNECTIVITY",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-162",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1q4rgo0/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post item 12",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Successful bus-ticket purchase and ride directly reported. Does not prove all terminals/providers accept same cards.",
+      "proposed_coding": {
+        "user_goal": "인천공항에서 시내 공항버스 표 구매",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "TRANSPORT",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-163",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1q4rgo0/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Post item 13",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Direct communication experience supports success; translation is the method and should remain explicit.",
+      "proposed_coding": {
+        "user_goal": "한국어를 잘 몰라도 현지인에게 필요한 문의",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "LANGUAGE",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": []
+    },
+    {
+      "case_id": "KM-FR-168",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1u8f6zp/",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original internal error; exact-ID search no matching original",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-214",
+      "source_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10310158570",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Question line 27; thank-you lines 60–64",
+      "source_date_observed": "2025-01-29 23:35; thanks 2025-01-31 10:53 (site display)",
+      "source_date_status": "EXACT_DATE_DISPLAYED",
+      "audit_reason": "Past kiosk ordering difficulty and request for Korean vocabulary; no final ordering result reported. Video recommendation acknowledged but video not watched.",
+      "proposed_coding": {
+        "user_goal": "한국 카페의 키오스크에서 매장·포장 구분 후 주문",
+        "evidence_type": "FIRSTHAND",
+        "primary_barrier": "ONSITE_USABILITY",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [],
+      "flags": [
+        "LANGUAGE could be secondary; no failure or successful recovery stated"
+      ]
+    },
+    {
+      "case_id": "KM-FR-222",
+      "source_url": "https://pantip.com/topic/44083151",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original redirect reported unsafe/non-retryable by web tool; no bypass attempted",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-223",
+      "source_url": "https://pantip.com/topic/44083151",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Same original as 222; unsafe/non-retryable redirect",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-224",
+      "source_url": "https://pantip.com/topic/44113097",
+      "review_status": "VERIFICATION_PENDING",
+      "access_observed": "UNAVAILABLE",
+      "audit_reason": "Original cache miss; exact-ID search returned unrelated results only",
+      "changes": {},
+      "missing_locators": [
+        "original_text",
+        "author",
+        "exact_post_or_comment_date",
+        "case_evidence_locator"
+      ]
+    },
+    {
+      "case_id": "KM-FR-225",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1tqmaa1/things_we_learnt_on_our_trip/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Comment line 250",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Outlook rejected during airfare booking; changed to Gmail. WORKAROUND only for email-input stage, final ticket purchase not stated.",
+      "proposed_coding": {
+        "user_goal": "제주 항공편 예약 확인 메일 입력",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "BOOKING",
+        "reported_outcome": "WORKAROUND",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "Permalink obtained from original-page link; direct permalink body unavailable, evidence read in parent thread"
+      ]
+    },
+    {
+      "case_id": "KM-FR-226",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1tqmaa1/things_we_learnt_on_our_trip/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Comment line 257",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Comment establishes witnessed stock at T2 CU, not explicitly completed purchase. Narrow goal to finding card stock; purchase outcome cannot be asserted.",
+      "proposed_coding": {
+        "user_goal": "인천공항 T2 편의점의 기후동행카드 판매 여부 확인",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "PREPARATION",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "user_goal": {
+          "baseline": "공항 도착 직후 기후동행카드 구매",
+          "proposed": "인천공항 T2 편의점의 기후동행카드 판매 여부 확인"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "If purchase goal retained, outcome must be UNKNOWN",
+        "Permalink obtained from original-page link; direct permalink body unavailable, evidence read in parent thread"
+      ]
+    },
+    {
+      "case_id": "KM-FR-227",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1tqmaa1/things_we_learnt_on_our_trip/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Author comment line 287 plus post taxi paragraph",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Author used k.ride after Kakao signup obstacle. WORKAROUND is alternate app use, not Kakao account creation.",
+      "proposed_coding": {
+        "user_goal": "Kakao Taxi로 택시 호출 준비",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "WORKAROUND",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {},
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "Permalink obtained from original-page link; direct permalink body unavailable, evidence read in parent thread"
+      ]
+    },
+    {
+      "case_id": "KM-FR-228",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1tqmaa1/things_we_learnt_on_our_trip/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Comment line 295",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Only login is reported; taxi booking/ride absent. Keep success for login-only goal, not vehicle use.",
+      "proposed_coding": {
+        "user_goal": "미국 번호와 KakaoTalk으로 Kakao Taxi 로그인",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "IDENTITY",
+        "reported_outcome": "SUCCEEDED",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "user_goal": {
+          "baseline": "Kakao Taxi에 미국 번호로 접속해 차량 이용",
+          "proposed": "미국 번호와 KakaoTalk으로 Kakao Taxi 로그인"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "Permalink obtained from original-page link; direct permalink body unavailable, evidence read in parent thread"
+      ]
+    },
+    {
+      "case_id": "KM-FR-229",
+      "source_url": "https://www.reddit.com/r/koreatravel/comments/1tqmaa1/things_we_learnt_on_our_trip/",
+      "review_status": "SECOND_REVIEWER_SOURCE_AUDITED",
+      "access_observed": "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS",
+      "evidence_locator": "Author comment lines 325–332",
+      "source_date_status": "EXACT_DATE_NOT_CONFIRMED",
+      "audit_reason": "Author describes Suncheon menus but phrases translation use as advice to readers. Personal successful translated order is not explicit; retain friction, lower outcome certainty.",
+      "proposed_coding": {
+        "user_goal": "한국 지방 소도시 식당의 한국어 메뉴 주문",
+        "evidence_type": "COMMENT_FIRSTHAND",
+        "primary_barrier": "LANGUAGE",
+        "reported_outcome": "UNKNOWN",
+        "research_scope_status": "IN_SCOPE"
+      },
+      "changes": {
+        "reported_outcome": {
+          "baseline": "WORKAROUND",
+          "proposed": "UNKNOWN"
+        }
+      },
+      "missing_locators": [
+        "exact_post_or_comment_date"
+      ],
+      "flags": [
+        "Comment URL exposed by original-page link; direct click cache miss",
+        "Permalink obtained from original-page link; direct permalink body unavailable, evidence read in parent thread"
+      ]
+    }
+  ]
+}
