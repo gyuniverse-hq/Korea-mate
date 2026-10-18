@@ -1,0 +1,17 @@
+{
+  "qa_version": "v1",
+  "checked_at": "2026-10-18",
+  "original_zip_source": "한국관광공사 데이터랩 공식 사용자 다운로드",
+  "result": "PASS",
+  "check_count": 100,
+  "normalized_month_language_type_rows": 1281,
+  "normalized_month_region_type_rows": 2271,
+  "repeated_language_key_count": 125,
+  "2025_total": 692437,
+  "2026_jan_sep_total": 456684,
+  "public_raw_license_verified": false,
+  "original_zip_sha256": [
+    "fc8b9f12bd05c821447f0c0ae1492a35417653a0eefed4bfddadfda412273289",
+    "6c5b9ec0f03c5fc84f82e08d4f0162be39af1bda7f6a4c1f61b191dc3c031948"
+  ]
+}

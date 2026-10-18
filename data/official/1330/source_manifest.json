@@ -1,0 +1,108 @@
+{
+  "dataset": "Korea Tourism Data Lab 1330 tourism information consultations (VOC 관광안내)",
+  "official_source": "https://datalab.visitkorea.or.kr/datalab/portal/bzm/getTursmCnsel.do",
+  "capture_date": "2026-10-18",
+  "scope": "관광안내 분류의 안내 접수 건수: 외국인 수 또는 실측 불편 사건 발생률이 아님",
+  "copyright_redistribution": "NOT_VERIFIED — official source download allowed, but public republication permission for raw files not confirmed",
+  "original_zip_files": [
+    {
+      "period": "2025",
+      "file": "20261018213628__202501-202512_데이터랩_다운로드.zip",
+      "sha256": "fc8b9f12bd05c821447f0c0ae1492a35417653a0eefed4bfddadfda412273289",
+      "months": 12,
+      "total": 692437,
+      "originals": [
+        [
+          "region",
+          "05692f6fa823d917eb1c74f1257cad29a5b8e77d1dc32bf084d53afde1b363f0",
+          17
+        ],
+        [
+          "type",
+          "694828941a13cf36a5b201551da117775058bfab8d3aa739833f6bba1631a348",
+          8
+        ],
+        [
+          "language",
+          "ce7f938b627dba5bcb324f7df2cb45557eb6736bcb1e94a2dd51ccd66902932a",
+          9
+        ],
+        [
+          "month_region_type",
+          "72613a2108d06de6cfbed2b4e9c85cd655b2d86cbb24629a55bb018633383d88",
+          1521
+        ],
+        [
+          "month_language_type",
+          "977d3bc15448300802e88193fd73d10d0a6d9250c454a11ae32cc48bedffa8ea",
+          1052
+        ]
+      ]
+    },
+    {
+      "period": "2026_01_09",
+      "file": "20261018213802__202601-202609_데이터랩_다운로드.zip",
+      "sha256": "6c5b9ec0f03c5fc84f82e08d4f0162be39af1bda7f6a4c1f61b191dc3c031948",
+      "months": 9,
+      "total": 456684,
+      "originals": [
+        [
+          "region",
+          "555c35aab29008501483b155e639c18159c892bf3de9e0400efd3e7eca07c1d2",
+          17
+        ],
+        [
+          "type",
+          "770cc549d62c18e8c143cb13af4a2762f477d7c18b78105afa904518e2c89cd1",
+          7
+        ],
+        [
+          "language",
+          "363ed66dfd762588d0d4b138c3d74e005ee4a5a7469674adb4d0eac213d56b35",
+          9
+        ],
+        [
+          "month_region_type",
+          "d5222370a16c653f66f9cf445fb7c9d4e4c2817fd3f8ff9954afcb269c906da5",
+          1105
+        ],
+        [
+          "month_language_type",
+          "023f8ed6ffc528078612d7cf443d0f9d04b58a0b5833c25c07cafdb32606475d",
+          779
+        ]
+      ]
+    }
+  ],
+  "processed_summary_blobs": {
+    "monthly_comparison_v5_2.csv": {
+      "git_blob_sha": "60244c6bbc70dd08b320f4657aebc34c4399f2bf",
+      "original_repo_path": "docs/research/foreigner-friction/v5_2/voc1330_monthly_v5_2.csv"
+    },
+    "language_comparison_v5_2.csv": {
+      "git_blob_sha": "9500585fcbe8826100a8f6d31be77c33b4b625a7",
+      "original_repo_path": "docs/research/foreigner-friction/v5_2/voc1330_languages_v5_2.csv"
+    },
+    "type_comparison_v5_2.csv": {
+      "git_blob_sha": "e7164e6c56eccab12f2e3880ca617266ad1f8f21",
+      "original_repo_path": "docs/research/foreigner-friction/v5_2/voc1330_types_v5_2.csv"
+    },
+    "region_distribution_v5_2.csv": {
+      "git_blob_sha": "4751c7c35573448e8f8ef1cc1e5f7b8f19529f09",
+      "original_repo_path": "docs/research/foreigner-friction/v5_2/voc1330_regions_v5_2.csv"
+    },
+    "quality_checks_v5_2.csv": {
+      "git_blob_sha": "13712abf3089e8b7958bd79b1afc5557d358ec46",
+      "original_repo_path": "docs/research/foreigner-friction/v5_2/voc1330_quality_checks_v5_2.csv"
+    }
+  },
+  "processing_verification": {
+    "all_checks_passed": true,
+    "checks_count": 100,
+    "normalized_month_language_type_rows": 1281,
+    "normalized_month_region_type_rows": 2271,
+    "other_language_repeated_keys": 125,
+    "year_2025_total": 692437,
+    "year_2026_01_09_total": 456684
+  }
+}
