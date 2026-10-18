@@ -1,0 +1,18 @@
+ID,근거 타입,경험/대상,관측/사례 요약,근거 강도,해석 주의,원문
+L001,국내 관광여행,음식관광,2025 65.6%; 20대 66.7%,공식조사 보도,추천 의향 아님,https://www.yna.co.kr/view/AKR20260703157500030
+L002,국내 관광여행,자연·풍경,2025 77.4%; 70세 이상 80.3%,공식조사 보도,인기관광지 직접 지정 아님,https://www.yna.co.kr/view/AKR20260703157500030
+L003,국내 관광여행,역사·유적지,2025 10.7%,공식조사 보도,외국인 추천 의향 아님,https://www.yna.co.kr/view/AKR20260703157500030
+L004,일상 여가,취미·오락,2025 분야 참여율 77.5%,국민여가 조사 보도,PC방/노래방 개별 수치 아님,https://v.daum.net/v/20251226100851039
+L005,일상 여가,스포츠,2025 분야 참여율 31.7%,국민여가 조사 보도,야구장 직관 수치 아님,https://v.daum.net/v/20251226100851039
+L006,공식 관광자원,한강공원 라면,2025-26 관광 100선 신규 경험 예시,문체부 공식 선정,인기/만족 조사 아님,https://www.korea.kr/news/policyNewsView.do?newsId=148938769
+L007,공식 관광자원,성수동 팝업,2025-26 관광 100선 신규 경험 예시,문체부 공식 선정,운영 중인 팝업 별도 확인,https://www.korea.kr/news/policyNewsView.do?newsId=148938769
+L008,공식 관광자원,속초 관광수산시장,2025-26 관광 100선 경험 예시,문체부 공식 선정,인기도 수치와 다름,https://www.korea.kr/news/policyNewsView.do?newsId=148938769
+L009,공식 관광자원,인천 교동도 촬영 콘텐츠,2025-26 관광 100선 신규 선정 예시,문체부 공식 선정,촬영지 방문전환 미측정,https://www.korea.kr/news/policyNewsView.do?newsId=148938769
+L010,공식 관광자원,대구 사유원·정동심곡 바다부채길,2025-26 관광 100선 치유여행 예시,문체부 공식 선정,지역 선호율 불명,https://www.korea.kr/news/policyNewsView.do?newsId=148938769
+L011,한국 거주자 자기보고,카페·디저트·사진관·산책,한국 거주 20대라고 밝힌 작성자의 생활 경험,개인 1명,대표성/국적검증 없음,https://www.reddit.com/r/koreatravel/comments/1mrolbh/local_korean_here_happy_to_answer_your_korea/
+L012,한국 거주자 자기보고,부산 음식·시장·야구,한국인 자기소개 작성자의 관광 추천,개인 1명,일반화 금지,https://www.reddit.com/r/koreatravel/comments/1mrolbh/local_korean_here_happy_to_answer_your_korea/
+L013,한국 거주자 자기보고,망원·남대문 시장,광장시장 대비 주관적 추천,개인 1명,가격/품질 우열 입증 안 됨,https://www.reddit.com/r/koreatravel/comments/1mrolbh/local_korean_here_happy_to_answer_your_korea/
+L014,한국 거주자 자기보고,안동 하회마을·탈춤,부산 거주 한국인이라 밝힌 방문자 추천(2023),개인 1명·과거 사례,현행 운영 미검증,https://www.reddit.com/r/koreatravel/comments/18p5axg
+L015,외국인 긍정 사례,한국 야구장 응원,직관을 즐겼다는 방문자 개인 서술,개인 1명,전체 만족률 추정 금지,https://www.reddit.com/r/koreatravel/comments/1mrolbh/local_korean_here_happy_to_answer_your_korea/
+L016,관광조회 로그,부산 내국인 관광지 조회,2024 내국인 해동 용궁사·오륙도·블루라인파크 등,2025 보도에 인용된 데이터랩,조회수≠실제 방문,https://v.daum.net/v/20250109185249560
+L017,관광조회 로그,부산 외국어권 관심지,2024 간체/일어 감천문화마을·번체 송도케이블카 등,2025 보도에 인용된 데이터랩,"언어권 페이지 조회수, 현재 순위 아님",https://v.daum.net/v/20250109185249560
