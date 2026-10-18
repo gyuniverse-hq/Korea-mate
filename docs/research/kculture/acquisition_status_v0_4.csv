@@ -1,0 +1,7 @@
+자료,공개상태,이번 실제 확보,남은 과제,공식링크
+제주 2025 ZIP,공식 게시 확인,원본 바이트 다운로드 실패,원자료 코드북 분석,https://data.ijto.or.kr/prog/rpstr/bigdata/sub04_01/view.do?regSn=474
+제주 2025 보고서,공식 게시 확인,원본 PDF 미열람,문항·분모 대조,https://data.ijto.or.kr/prog/rpstr/bigdata/sub04_01/view.do?regSn=455
+부산 2024 PDF,공개 확인,부산시보 공식 요약 활용,원표 3종 직접 대조,https://www.busan.go.kr/depart/busan-culture-report/1704996
+부산 공공데이터,공공데이터포털 등록 확인,원본 다운로드 미완료,대체 다운로드 확인,https://www.data.go.kr/data/15117366/fileData.do
+2025 잠재 방한여행객 조사,공식 PDF 접근 성공,인쇄 119~128쪽 직접 분석,국가별 분모 보강,https://datalab.visitkorea.or.kr/site/portal/ex/bbs/View.do?bcIdx=310715&cateCont=tlt02&cbIdx=1603
+KoreaMate 기존 EDA,기존 브랜치 분석 활용,지역별 실제 방문율 재사용,개인 원자료 재실행 제외,https://github.com/gyuniverse-hq/Korea-mate/tree/research/eda-2025-survey
