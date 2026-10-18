@@ -1,0 +1,40 @@
+{
+  "version": "v5.4",
+  "date": "2026-10-18",
+  "baseline_sha": {
+    "v5_1/cases_cumulative_v5_1.csv": "353aa10e907a6a82eef8a5171fff05b9d5dfff66",
+    "v5_3/theme_outcomes_v5_3.csv": "d68e14c4fd8b555788b864865932583697b65424",
+    "v5_3/code_to_theme_v5_3.csv": "a22f27248d2543d3e76a2acad3997175b9986dd0",
+    "v5_2/survey_priority_metrics_v5_2.csv": "e9e13fd7803756f0a30905d7a6c07cf9949c5e37",
+    "v5_2/voc1330_types_v5_2.csv": "e7164e6c56eccab12f2e3880ca617266ad1f8f21"
+  },
+  "QA": {
+    "cases": 407,
+    "unique_case_ids": 407,
+    "direct_experience_preliminary": 304,
+    "direct_source_clusters": 157,
+    "outcome": {
+      "UNKNOWN": 32,
+      "BLOCKED": 36,
+      "SUCCEEDED": 106,
+      "WORKAROUND": 92,
+      "PARTIAL": 38
+    },
+    "source_access": {
+      "ORIGINAL_BODY_OR_AUTHOR_ARCHIVE": 199,
+      "INDEXED_OR_MIXED": 98,
+      "PUBLIC_MIRROR": 7
+    },
+    "barrier_codes": 53,
+    "analysis_themes": 8,
+    "claim_register_entries": 28,
+    "followup_items": 12
+  },
+  "limitations": [
+    "비확률 표본의 대표성 미확인",
+    "동일인·중복 작성자/복수사건 완전검수 미완료",
+    "현행 사업자 정책 독립확인 미완료",
+    "실사용자 비교실험 미수행"
+  ],
+  "input_modified": false
+}

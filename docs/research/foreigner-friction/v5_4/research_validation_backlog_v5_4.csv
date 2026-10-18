@@ -1,0 +1,13 @@
+﻿id,research_priority,task,method,done_definition,status
+R01,HIGH,출처 대기17,"원문/댓글 직접 재확인, 미접근은 보류",17개별 검토 메모·판정,PENDING
+R02,HIGH,관광객 신분 불명3,명시된 관광 목적 확인,근거 없는 건 UNRESOLVED 유지,PENDING
+R03,HIGH,성공/실패 단계 정규화,예매·결제·탑승 등 목표 구분,전후 판정·근거·합의 기록,PENDING
+R04,HIGH,색인·미러 105행,실제 원본 접근시만 승격,원문 범위·검증일·대기 메모,PENDING
+R05,MEDIUM,독립 맹검 코딩,기존 라벨 숨긴 층화 재코딩,이견·합의 표,NOT_STARTED
+R06,MEDIUM,작성자/재게시 중복,익명 군집·사건 정의 재감사,한 사용자 여러 목표 설명,NOT_STARTED
+R07,MEDIUM,업체 현재정책,공식 계정/해외카드/예약 정보 확인,서비스별 현재성·권한표,NOT_STARTED
+R08,MEDIUM,동영상 원본,v5 영상 접근 로그 재활용,실제 영상·타임스탬프,NOT_STARTED
+R09,MEDIUM,사용자 비교 E1~E6,GPT/지도/예약 기존 도구 대비 과업,시간·완료·재설명·오안내,DESIGNED_NOT_TESTED
+R10,MEDIUM,문화 미참여 원인,참여 못한 여행자와 성공 대조,실제 장애·선택 이유,NOT_STARTED
+R11,LOW,1330 연도변화 이유,상담 운영·모수 함께 대조,인과 단정 방지 메모,NOT_STARTED
+R12,LOW,팀 인계 검토,근거/반례/미완료 과제 공유,팀 검토 로그·제품 별도 의사결정,READY_FOR_REVIEW

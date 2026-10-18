@@ -1,0 +1,29 @@
+﻿claim_id,source_category,statement,source_location,base,evidence_level,inference_level,allowed_statement,invalid_interpretation,followup
+PRE-01,official,"2025 잠재 방한 조사 일반 외국인·방한 의향자 각각 16,360명",v5_2/official_cross_analysis_v5_2.md#2.1,각기 다른 조사 집단,official_aggregate,direct,"각 조사 표본 규모 16,360명","중복 없는 관광객 32,720명",집단·가중치 차이 유지
+PRE-02,official,방한 비의향자 언어소통 우려 24.6%,v5_2/survey_priority_metrics_v5_2.csv#B13-1A,"비의향자 n=2,380",official_aggregate,conditional,해당 하위집단의 방문 전 우려,실제 방문 중 언어소통 실패율,응답 복수선택·분모 표시
+PRE-03,official,미결정자 언어소통 우려 26.6%,v5_2/survey_priority_metrics_v5_2.csv#B13-1B,"미결정자 n=1,932",official_aggregate,conditional,해당 하위집단의 사전 우려,관광객 전체 불편 비율,비의향자와 집단 혼용 금지
+PRE-04,official,한국 전용 앱 이용 우려 38.9%,v5_2/survey_priority_metrics_v5_2.csv#B13-1-14,언어 장벽 선택 비의향자 n=586,official_aggregate,conditional,해당 하위집단의 앱 언어지원 우려,한국 앱 인증 실패율 38.9%,국내번호·국외카드 문제와 분리
+PRE-05,official,긴급 소통 우려 61.5%,v5_2/survey_priority_metrics_v5_2.csv#B13-1-14,언어 장벽 선택 비의향자 n=586,official_aggregate,conditional,해당 응답자의 긴급상황 예상 우려,실제 긴급사건 발생율,언어우려가 사건 발생을 증명하지 않음
+PRE-06,official,"여행정보 탐색 48.6%, 상품 탐색 41.7%",v5_2/survey_priority_metrics_v5_2.csv#C7,"방한 의향자 n=16,360",official_aggregate,direct,여행준비 과정의 탐색활동,관광객 정보부족·예약 실패율,복수응답/구체적인 실행결과 확인
+PRE-07,official,"방문 목적 음식 52.2%, 전통문화 46.4%, 한류 26.1%",v5_2/survey_priority_metrics_v5_2.csv#C9A,"방한 의향자 n=16,360",official_aggregate,direct,세 문화 분야의 방문 의향,실제 방문/구매 전환,1~3순위 복수응답
+PRE-08,official,한국 인지 경로 중 생성형 AI 추천 20.4%,v5_2/survey_priority_metrics_v5_2.csv#C3,"한국 인지자 n=6,175",official_aggregate,conditional,목적지 인지 경로,AI 여행앱 이용 및 과업성공률,인지와 실제 이용 구분
+VOC-01,official,"2025 1330 관광안내 692,437건",v5_2/official_cross_analysis_v5_2.md#2.2,2025년 12개월 해당 다운로드,official_aggregate,direct,관광안내 접수량,"외국인 692,437명 불편 경험",한국어 포함·반복 접수 여부 미확인
+VOC-02,official,"교통안내 290,810건(42.0%)",v5_2/voc1330_types_v5_2.csv#교통,"2025 관광안내 692,437건",official_aggregate,direct,교통 관련 안내 접수 비율,교통 실패율 42%,일반 정보 문의 포함
+VOC-03,official,"관광지안내 256,853건(37.1%)",v5_2/voc1330_types_v5_2.csv#관광지,"2025 관광안내 692,437건",official_aggregate,direct,관광지 관련 안내 접수 비율,관광지 이용 실패율,방문 목적·안내·실패 구별
+VOC-04,official,2025/2026 같은 1~9월 상담량 -13.2%,v5_2/official_cross_analysis_v5_2.md#4.2,"2025 526,021건 / 2026 456,684건",official_aggregate,direct,동기간 접수 건수 변화,관광 불편 개선 인과효과,방문객 구성·운영 요인 미통제
+VOC-05,official,2026 의료관광 유형 미표시,v5_2/voc1330_types_v5_2.csv#의료관광,2026 다운로드,official_aggregate,direct,해당 유형 데이터 미표시,2026 의료관광 0건,결측=0 아님
+DATA-01,dataset,407행 중 직접경험 예비 304행·157출처군집,v5_1/cases_cumulative_v5_1.csv,연구 편의표본,reproduced_count,direct,연구 레코드/군집 수,304명의 독립 검증 관광객,복수 과업·댓글·재게시 가능성
+DATA-02,dataset,304행의 결과 성공106·우회92·부분38·중단36·불명32,v5_1/cases_cumulative_v5_1.csv#v5_outcome_normalized,직접경험 예비자료,reproduced_count,coded,표본 내부 결과 상태,시장 전체 성공률·실패율,최종 목표의 완료 단계 재검토
+DATA-03,dataset,본문/작성자199·색인혼합98·미러7,v5_1/cases_cumulative_v5_1.csv#v5_1_evidence_access_class,직접경험 예비 304행,reproduced_count,direct,원문 접근 수준 구성,199건의 독립 진위 확인 완료,원문 열람≠진위 검증
+THEME-01,thematic,예약·인증·결제 80행/66군집·중단22행,v5_3/theme_outcomes_v5_3.csv#T1,예비 경험 304행,reproduced_coding,coded,선택표본의 예약/인증/결제 경험,방한객의 가장 흔한 문제,현재 서비스 정책/발생률 미확인
+THEME-02,thematic,문화 발견 25행 중 성공16·중단0,v5_3/theme_outcomes_v5_3.csv#T5,예비 경험 304행,reproduced_coding,coded,긍정 기록과 문화수요 존재,문화 발견 실패 없음/심각함,비참여·새 경험 미발견 표본 부족
+THEME-03,thematic,운영 변경·긴급 복구 32행 중 우회17·중단8,v5_3/theme_outcomes_v5_3.csv#T4,예비 경험 304행,reproduced_coding,coded,돌발상황에서 우회/중단 모두 관찰,실제 방문객 복구 실패율,신고와 최종 완료 분리
+THEME-04,thematic,비용·분쟁 T7 3행은 결제·환급 전체가 아니다,v5_3/theme_outcomes_v5_3.csv#T7 vs T1,좁은 비용 코드묶음,reproduced_coding,coded,T7 범위 내 3행,외국인 금전 문제 총 3건,T1 PAYMENT/TAX_REFUND 별도 포함
+CASE-01,self_report,예약 성공 후 기상으로 탑승 못한 사례,v5_3/case_evidence_v5_3.csv#KM-FR-250,1인 자기보고,primary_selfreport,reported,해당 경험이 보고됨,현행 사업자 환불 보장,실시간 공지/환불 실제 결과
+CASE-02,self_report,국내 인증 대신 이메일로 견학을 진행한 사례,v5_3/case_evidence_v5_3.csv#KM-FR-304,일부 색인/원문,indexed_or_mixed,reported,대체 접수 사례 보고됨,현재 누구나 이메일로 접수 가능,사업자 공식 현재 약관
+CASE-03,self_report,휠체어 이용자가 교통 이용 성공과 우회를 경험,v5_3/case_evidence_v5_3.csv#KM-FR-261;262,동일 작성자 두 과업,primary_selfreport,reported,성공과 우회가 함께 기록됨,독립 이용자 두 명,현장 접근성 확인
+CASE-04,self_report,분실신고는 했으나 귀국 당시 회수되지 않음,v5_3/case_evidence_v5_3.csv#KM-FR-263,1인 자기보고,primary_selfreport,reported,신고 완료와 목표 달성은 다름,대부분 회수되지 않음,후속 결과 확인
+HYP-01,product_hypothesis,통합·맥락 유지로 재설명·앱전환·시간 감소,v5_3/research_task_protocols_v5_3.md#E2,실험 없음,unmeasured,untested,실제 사용자 비교 실험 가설,효과가 이미 입증됨,동일 과업 비교 E2
+HYP-02,product_hypothesis,맞춤 문화 추천이 발견·만족·방문전환을 개선,v5_3/research_task_protocols_v5_3.md#E6,실험 없음,unmeasured,untested,문화발견 비교 실험 가설,실제 개선 효과 확인,기존 성공자 대조군 E6
+HYP-03,product_hypothesis,데이터 누적이 추천 정확도·BM을 자동 개선,v5_3/research_findings_v5_3.md,모델/경제성 테스트 없음,unmeasured,untested,성과 측정 필요한 가설,이용자 증가시 성능·매출 상승 보장,데이터 품질/온라인 평가
+HYP-04,product_hypothesis,제휴 없이 모든 예약·결제 자동 실행,v5_3/research_findings_v5_3.md,업체별 API·권한 미확인,unmeasured,untested,실행 가능 범위를 서비스별 확인해야 함,모든 서비스 자동 예약 가능,공식 권한·계정·동의 확인
