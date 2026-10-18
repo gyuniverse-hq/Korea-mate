@@ -1,0 +1,47 @@
+﻿original_id,reviewer,review_date,review_method,decision,note
+JP-V5-001,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+JP-V5-002,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+JP-V5-003,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+JP-V5-004,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+ZH5-001,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+ZH5-002,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+ZH5-003,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+ZH5-004,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+TH01,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+TH02,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,First ten-case source comparison; stage/commercial/Tmoneysegment/poolcost qualifications recorded
+ZH5-038,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ZH5-042,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ZH5-046,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ZH5-050,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ENA001,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ENA002,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ENA003,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ENA004,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+ENA005,reviewer_2,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_OR_SCOPE_CORRECTION,Additional source comparison; source-stage/outcome scope/translation intensity corrections recorded
+JP-V5-020,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-032,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-033,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-034,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-035,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-037,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-021,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-022,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,CORRECT,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-026,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+JP-V5-036,reviewer_3,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,CORRECT,"Original page body opened; source claim supported, actual policy/incident truth not independently verified"
+EN001,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,"Booking/ride chain: lines82–85 friend card and alternate slot,86–93 actual ride and arrival."
+EN002,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,Lines96 friend books with local number;103 set-menu restriction;107–111 meal finished.
+EN003,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,Lines20–22 closed gate/bridge and alternate entrance;37 completed satisfactory visit.
+TH01,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_NARROW_GOAL,"Lines105–107 AREX arrival and recharge queue;114 later hotel destination. Recharge completion not explicit. Scope must remain recharge/transfer task, not total arrival failure."
+TH02,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN_NARROW_GOAL,Lines121–125 cold-noodle sign led to BBQ restaurant and two-main requirement;128 explicitly says ate until full. Intended noodle order unspecified. Broad meal goal would be SUCCEEDED/MIXED.
+TH03,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,Lines128 tablet/email/live queue;172 entered after about one hour. No evidence phone-free universally.
+TH04,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,CHANGE,Lines215–220 mild perceived one-way confusion;222–233 actual lakeside viewing and sunset;240 returned to hotel. No stated curtailed walk. Change kind FRICTION to MIXED.
+TH05,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,Lines65 staff recommends dish;66–67 sensory description and actual eating. Incident date unknown.
+TH06,reviewer_4,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,RETAIN,Line71 drove using Naver and parked outside restaurant;73–74 ate meal. Incident date unknown.
+ENA006,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS_WITH_SCOPE_NOTE,WOWPASS and intermittent card problems supported. Later reply says Visa worked fine except WOWPASS and Monzo failures were intermittent; do not treat either network as universally rejected. Keep summary; retain cause uncertainty.
+ENA007,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS,Google Maps as fallback for Naver location lookup is explicit. No change.
+ENA008,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS_WITH_WORDING_CORRECTION,Additional cash obtained after some Myeongdong vendors lacked direct card payment and Alipay did not work for author. blocked_step: 카드 제한·Alipay 사용 실패. Do not specify setup failure; cause unstated.
+ENA009,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS_WITH_CODING_NOTE,"Advance booking, actual capsule ride and subjective disappointment supported. blocked_step should state 탑승 중단 없음; 기대 대비 만족 부족. TRUST_AND_REVIEW is interpretive coding, not proof of deceptive reviews."
+ENA010,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS,"Hanbok experience curtailed after roughly one hour in heat, followed by cafe and accommodation rest. Keep PARTIAL. Jet lag also mentioned; heat is explicit but not necessarily sole cause."
+ENA011,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS,Rental pickup and onward driving explicitly completed. Success limited to rental pickup/use; driving speed-limit frustration remains separate context.
+ENA012,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS,"No jumbo taxis, delay, then two regular taxis to lodging. No change; do not merge boarding-pass episode into this case."
+ENA013,reviewer_5,2026-10-18,NONBLINDED_SOURCE_TEXT_COMPARISON,PASS,"Closed walking route prompted taxi to Bulguksa, subsequently visited. No change; closure cause and current status unknown."
