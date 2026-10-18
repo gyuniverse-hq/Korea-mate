@@ -1,0 +1,16 @@
+source_id,url,method,access_result,status,access_date
+potential2025,https://datalab.visitkorea.or.kr/site/portal/ex/bbs/View.do?bcIdx=310715&cateCont=tlt02&cbIdx=1603,web open,Body accessible; attachment filenames not clickable in extracted page,NO_NUMERIC_TABLE,2026-10-18
+potential2025_library,https://policy.nl.go.kr/search/newSearchDetail.do?kwd=&rec_key=SH2_PLC20260373171,web search/open,Search shows download/online viewing; open Internal Error,NO_NUMERIC_TABLE,2026-10-18
+potential2025_catalog,https://k-knowledge.kr/srch/read.jsp?id=284327146,web open/find,Metadata and contents only; source button has no exposed link,NO_NUMERIC_TABLE,2026-10-18
+1330_2026_09_touraz,https://touraz.kr/report?bbsSeq=311387_1129&boardMode=V,web open/image click,Announcement read; image click Internal Error,NO_NUMERIC_TABLE,2026-10-18
+1330_2026_09_source,https://datalab.visitkorea.or.kr/site/portal/ex/bbs/View.do?cbIdx=1129&bcIdx=311387,web open,Internal Error,NO_NUMERIC_TABLE,2026-10-18
+1330_2025_01,https://datalab.visitkorea.or.kr/site/portal/ex/bbs/View.do?bcIdx=308741&cbIdx=1129,web open/six image clicks,PDF filename no exposed download link; six public images all Cache miss,NO_NUMERIC_TABLE,2026-10-18
+kculture_dashboard,https://datalab.visitkorea.or.kr/datalab/portal/theme/getKorWaveSearch.do?callYn=Y&tabDiv=2,web open/find,Definitions and headings read; dynamic values absent,NO_NUMERIC_TABLE,2026-10-18
+kofice_2026_release,https://kofice.or.kr/www/bbs/view.do?bbsSn=53378&mnucd=103&scBbsMngSn=5,web open,Official HTML body and survey-design table read,NINE_METRICS_RECORDED_WITH_DENOMINATOR_LIMITS,2026-10-18
+kofice_release_attachment,https://kofice.or.kr/file/download.do?atchFileSn=27568&atchSn=53378&childYn=Y,official attachment link click,400 Unsupported content-type application/octet-stream,NOT_READ,2026-10-18
+kofice_2025_oldarchive,https://hallyuresearch.kofice.or.kr/bbs/board.php?bo_table=report&sca=%ED%95%B4%EC%99%B8%ED%95%9C%EB%A5%98%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC&wr_id=83,web search/open,Search metadata available; open Internal Error,NOT_USED_FOR_NUMERIC_RESULT,2026-10-18
+kofice_2026_fullrecord,https://www.archivecenter.net/hallyuresearch/archive/srch/ArchiveNewSrchView.do?i_id=153488,official archive navigation,Record accessible; download and viewer links present,METADATA_ONLY,2026-10-18
+kofice_2026_fullpdf,https://www.archivecenter.net/kaitArchive/attach/150000/153488/20260629172852151.pdf,official download click,400 Content length too large: 61101595 bytes,PDF_NOT_READ,2026-10-18
+kofice_2026_viewer,https://www.archivecenter.net/plugins/pdfjs/web/viewer_archive.html?url=/kaitArchive/attach/150000/153488/20260629172852151.pdf,official iframe click,Viewer controls only; no rendered pages/text,PDF_NOT_READ,2026-10-18
+kofice_2026_summaryrecord,https://www.archivecenter.net/hallyuresearch/archive/srch/ArchiveNewSrchView.do?i_id=148724,official related-record link click,Summary record accessible,METADATA_ONLY,2026-10-18
+kofice_2026_summarypdf,https://www.archivecenter.net/kaitArchive/attach/140000/148724/20260330185020707.pdf,official download click,400 Content length too large: 15221109 bytes,PDF_NOT_READ,2026-10-18
