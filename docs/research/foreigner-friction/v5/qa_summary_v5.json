@@ -1,0 +1,108 @@
+{
+  "total_rows": 407,
+  "new_rows": 178,
+  "canonical_source_urls": 239,
+  "new_baseline_url_overlaps": [],
+  "analysis_groups": {
+    "DIRECT_EXPERIENCE_PRELIMINARY": 303,
+    "QUESTION_DEMAND": 61,
+    "PENDING_SOURCE": 18,
+    "HISTORICAL": 20,
+    "ADJACENT_EXCLUDED": 1,
+    "SECONDHAND_CONTEXT": 1,
+    "USER_SCOPE_UNCERTAIN": 3
+  },
+  "languages": {
+    "en": 192,
+    "zh-Hant": 115,
+    "ja": 85,
+    "th": 15
+  },
+  "new_access": {
+    "full": 36,
+    "search excerpt": 4,
+    "MIRROR_FULL_COMMENTS": 7,
+    "INDEXED_ORIGINAL_BODY": 26,
+    "INDEXED_MIRROR_BODY": 3,
+    "PUBLIC_PAGE_FULL_BODY": 60,
+    "PUBLIC_PAGE_FULL_BODY_AND_SELECTED_COMMENTS": 30,
+    "PUBLIC_AUTHOR_ARCHIVE_FULL_ENTRY": 7,
+    "FULL_TIMESTAMPED_CAPTION_MIRROR; original YouTube unavailable": 3,
+    "FULL_PUBLIC_PRIMARY_POST_AND_TRANSCRIPT": 1,
+    "PARTIAL_TRANSCRIPT_MIRROR_BODY_READ": 1
+  },
+  "new_groups": {
+    "DIRECT_EXPERIENCE_PRELIMINARY": 167,
+    "PENDING_SOURCE": 8,
+    "USER_SCOPE_UNCERTAIN": 2,
+    "QUESTION_DEMAND": 1
+  },
+  "source_audit": {
+    "reviewed_at_utc": "2026-10-18",
+    "method": "Second-reviewer source audit, not blinded independent coding. Baseline labels were read first; risk-stratified purposive sample, supplemented by cases on recovered sources. No unbiased agreement/kappa estimate.",
+    "baseline_cases": 229,
+    "attempted_cases": 61,
+    "content_reviewed_cases": 46,
+    "pending_cases": 15,
+    "content_reviewed_fraction": 0.2009,
+    "legacy_pending_attempted": 14,
+    "legacy_pending_text_recovered": 5,
+    "legacy_pending_still_unavailable": 9,
+    "access_counts": {
+      "ORIGINAL_PAGE_BODY_AND_SELECTED_COMMENTS": 39,
+      "UNAVAILABLE": 15,
+      "INDEXED_ORIGINAL_BODY_AND_SELECTED_COMMENTS": 7
+    },
+    "limitations": [
+      "Original-page access means web tool returned body/selected comments from original URL, potentially cached; not live UI/full-comment enumeration.",
+      "Index-only recovery separately labelled.",
+      "Review verifies source claim and coding fidelity, never independent incident truth or current provider policy.",
+      "Dates on Reddit mostly relative and exact calendar dates not independently verified.",
+      "Sample is clustered by source and selected for audit risk; no population error-rate inference.",
+      "Case count does not equal unique individuals.",
+      "Several suggested changes concern scope granularity rather than binary correct/incorrect labels."
+    ],
+    "reviewed_language_counts": {
+      "en": 20,
+      "zh-Hant": 16,
+      "ja": 6,
+      "th": 4
+    },
+    "attempted_language_counts": {
+      "en": 31,
+      "zh-Hant": 16,
+      "ja": 7,
+      "th": 7
+    },
+    "material_code_change_cases": [
+      "KM-FR-012",
+      "KM-FR-031",
+      "KM-FR-036",
+      "KM-FR-115",
+      "KM-FR-153",
+      "KM-FR-160",
+      "KM-FR-226",
+      "KM-FR-228",
+      "KM-FR-229"
+    ]
+  },
+  "duplicate_case_ids": 0,
+  "baseline_229_original_fields_preserved": true,
+  "new_review_records": 46,
+  "new_unique_cases_reviewed": 44,
+  "new_review_fraction": 0.24719101123595505,
+  "direct_access_classes": {
+    "ORIGINAL_BODY_OR_AUTHOR_ARCHIVE": 198,
+    "INDEXED_OR_MIXED": 98,
+    "PUBLIC_MIRROR": 7
+  },
+  "direct_source_urls": 156,
+  "direct_outcomes": {
+    "UNKNOWN": 32,
+    "BLOCKED": 36,
+    "SUCCEEDED": 106,
+    "WORKAROUND": 91,
+    "PARTIAL": 38
+  },
+  "direct_incident_date_unknown": 183
+}
